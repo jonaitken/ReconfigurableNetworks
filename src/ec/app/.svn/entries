@@ -1,0 +1,137 @@
+10
+
+dir
+75
+https://svn.cs.york.ac.uk/svn/NDL_NC/trunk/jythonParser/src/ec/app
+https://svn.cs.york.ac.uk/svn/NDL_NC
+
+
+
+2012-05-08T15:46:16.488309Z
+64
+jaitken@CS.YORK.AC.UK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e73a802a-d89f-4a17-8b8d-03be8048aa51
+
+multiplexerslow
+dir
+
+regression
+dir
+
+ant
+dir
+
+twobox
+dir
+
+gui
+dir
+
+tutorial1
+dir
+
+serengeti
+dir
+
+tutorial2
+dir
+
+tutorial3
+dir
+
+sat
+dir
+
+tutorial4
+dir
+
+spatial
+dir
+
+README
+file
+
+
+
+
+2012-05-09T09:34:27.859375Z
+952aa796a9c883df6d599f42fe01e2be
+2012-05-08T15:46:16.488309Z
+64
+jaitken@CS.YORK.AC.UK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1887
+
+ecsuite
+dir
+
+coevolve1
+dir
+
+moosuite
+dir
+
+edge
+dir
+
+coevolve2
+dir
+
+sum
+dir
+
+parity
+dir
+
+nk
+dir
+
+star
+dir
+
+multiplexer
+dir
+
+lawnmower
+dir
+
+hiff
+dir
+
+async
+dir
+

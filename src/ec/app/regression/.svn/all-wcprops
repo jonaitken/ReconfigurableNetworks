@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/regression
+END
+Sextic.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/regression/Sextic.java
+END
+Quintic.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/regression/Quintic.class
+END
+Regression.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/regression/Regression.class
+END
+quinticnoerc.params
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/regression/quinticnoerc.params
+END
+convertToMathematica.lisp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/regression/convertToMathematica.lisp
+END
+quinticerc.params
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/regression/quinticerc.params
+END
+noerc.params
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/regression/noerc.params
+END
+RegressionData.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/regression/RegressionData.java
+END
+erc.params
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/regression/erc.params
+END
+Quintic.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/regression/Quintic.java
+END
+Regression.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/regression/Regression.java
+END
+steadynoerc.params
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/regression/steadynoerc.params
+END
+Sextic.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/regression/Sextic.class
+END
+regression.grammar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/regression/regression.grammar
+END
+sexticnoerc.params
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/regression/sexticnoerc.params
+END
+noerc2.params
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/regression/noerc2.params
+END
+sexticerc.params
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/regression/sexticerc.params
+END
+ge.params
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/regression/ge.params
+END
+RegressionData.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/regression/RegressionData.class
+END

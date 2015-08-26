@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers
+END
+notation3$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/notation3$py.class
+END
+__init__$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/__init__$py.class
+END
+ntriples$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/ntriples$py.class
+END
+nt$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/nt$py.class
+END
+rdfxml.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfxml.py
+END
+notation3.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/notation3.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/__init__.py
+END
+rdfxml.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfxml.pyc
+END
+ntriples.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/ntriples.py
+END
+trix$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/trix$py.class
+END
+nt.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/nt.py
+END
+__init__.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/__init__.pyc
+END
+rdfxml$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfxml$py.class
+END
+trix.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/trix.py
+END

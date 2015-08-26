@@ -1,0 +1,59 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+parent.0 = C:/workspace/jythonParser/src/ec/multiobjective/nsga2/nsga2.params
+
+eval.problem = evolutionAspects.ProblemSetupMoo
+
+#
+# optionally your type could be: zdt1, zdt2, zdt3, zdt4, zdt6, sphere
+#
+# Different problems has different default settings, so we suggest 
+# using the appropriate params file for each benchmark.
+#
+pop.subpop.0.species		= ec.vector.IntegerVectorSpecies
+pop.subpop.0.species.ind	= ec.vector.IntegerVectorIndividual
+
+pop.subpop.0.species.fitness.num-objectives = 5
+#seed.0 = 0
+
+
+#constants from  "Zitzler, E., Deb, K., and Thiele, L., 2000,
+#Comparison of Multiobjective Evolutionary Algorithms: Empirical Results, 
+#Evolutionary Computation, Vol. 8, No. 2, pp173-195."
+#
+#Before comparing results, note that that paper uses SPEA, not SPEA2.
+
+pop.subpop.0.size =			300
+generations =				500
+pop.subpop.0.species.crossover-type = one
+pop.subpop.0.species.crossover-prob	= 0.3 #0.6 #0.7 #0.8
+pop.subpop.0.species.mutation-prob	= 0.015
+#pop.subpop.0.species.mutation-prob	= 1.0
+
+jobs=10
+
+pop.subpop.0.archive-size =			20
+#note that subpop.size includes the archive!
+
+pop.subpop.0.species.min-gene = -5
+pop.subpop.0.species.max-gene = 10
+pop.subpop.0.species.genome-size = 5000
+
+
+#stat =	ec.multiobjective.spea2.SPEA2Statistics
+stat = ec.multiobjective.MultiObjectiveStatistics
+stat.front = $front.stat
+
+pop.subpop.0.species.pipe = 		evolutionAspects.OurMutatorPipeline
+pop.subpop.0.species.pipe.source.0 = 	ec.vector.breed.VectorCrossoverPipeline
+#pop.subpop.0.species.pipe.source.0.source.0 = ec.multiobjective.spea2.SPEA2TournamentSelection
+pop.subpop.0.species.pipe.source.0.source.0 = ec.select.TournamentSelection
+pop.subpop.0.species.pipe.source.0.source.1 = same
+select.tournament.size = 		2
+pop.subpop.0.species.crossover-type = one
+
+pop.subpop.0.species.fitness.min.0 = 0
+pop.subpop.0.species.fitness.max.1 = 1.0
+

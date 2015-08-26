@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps
+END
+nortelconfig.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/nortelconfig.py
+END
+pathfind.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/pathfind.py
+END
+ospfdump.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/ospfdump.py
+END
+ethcreate.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/ethcreate.py
+END
+glifcreate.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/glifcreate.py
+END
+calientconfig.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/calientconfig.py
+END
+ospf.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/ospf.py
+END
+pathwalk.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/pathwalk.py
+END
+networkreader.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/networkreader.py
+END
+glimmerglassconfig.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/glimmerglassconfig.py
+END
+ndl-reader.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/ndl-reader.py
+END
+pathwalk-lmon.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/pathwalk-lmon.py
+END
+glifsimplecreate.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/glifsimplecreate.py
+END
+idcreader.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/idcreader.py
+END
+devicereader.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/devicereader.py
+END
+schemareader.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/schemareader.py
+END
+force10config.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/apps/force10config.py
+END

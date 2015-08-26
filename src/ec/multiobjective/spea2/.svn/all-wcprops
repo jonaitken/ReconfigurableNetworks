@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/multiobjective/spea2
+END
+SPEA2Subpopulation.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2Subpopulation.java
+END
+SPEA2MultiObjectiveFitness.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2MultiObjectiveFitness.class
+END
+SPEA2Breeder.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2Breeder.java
+END
+SPEA2Statistics.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2Statistics.class
+END
+spea2.params
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/multiobjective/spea2/spea2.params
+END
+SPEA2MultiObjectiveFitness.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2MultiObjectiveFitness.java
+END
+SPEA2Breeder$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2Breeder$1.class
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/multiobjective/spea2/README
+END
+SPEA2TournamentSelection.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2TournamentSelection.class
+END
+SPEA2Evaluator.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2Evaluator.class
+END
+SPEA2Subpopulation.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2Subpopulation.class
+END
+SPEA2Statistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2Statistics.java
+END
+SPEA2Breeder.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2Breeder.class
+END
+SPEA2TournamentSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2TournamentSelection.java
+END
+SPEA2Evaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/multiobjective/spea2/SPEA2Evaluator.java
+END

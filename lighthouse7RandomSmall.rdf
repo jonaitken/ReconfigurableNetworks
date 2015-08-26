@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:ndl="http://www.science.uva.nl/research/sne/ndl#"
+xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+xmlns:vc="http://www.w3.org/2001/vcard-rdf/3.0#"
+xml:base="http://trafficlight.uva.netherlight.nl/ndl/files/lighthouse.rdf">
+
+<rdf:Bag rdf:about="http://nodes0.domain.ac.uk#nodes">
+	<rdf:li rdf:resource="http://nodes0.domain.ac.uk#nodes0"/>
+	<rdf:li rdf:resource="http://nodes1.domain.ac.uk#nodes1"/>
+	<rdf:li rdf:resource="http://nodes2.domain.ac.uk#nodes2"/>
+	<rdf:li rdf:resource="http://nodes3.domain.ac.uk#nodes3"/>
+	<rdf:li rdf:resource="http://nodes4.domain.ac.uk#nodes4"/>
+	<rdf:li rdf:resource="http://nodes5.domain.ac.uk#nodes5"/>
+	<rdf:li rdf:resource="http://nodes6.domain.ac.uk#nodes6"/>
+	<rdf:li rdf:resource="http://nodes7.domain.ac.uk#nodes7"/>
+	<rdf:li rdf:resource="http://nodes8.domain.ac.uk#nodes8"/>
+	<rdf:li rdf:resource="http://nodes9.domain.ac.uk#nodes9"/>
+	<rdf:li rdf:resource="http://nodes10.domain.ac.uk#nodes10"/>
+	<rdf:li rdf:resource="http://nodes11.domain.ac.uk#nodes11"/>
+	<rdf:li rdf:resource="http://nodes12.domain.ac.uk#nodes12"/>
+	<rdf:li rdf:resource="http://nodes13.domain.ac.uk#nodes13"/>
+	<rdf:li rdf:resource="http://nodes14.domain.ac.uk#nodes14"/>
+	<rdf:li rdf:resource="http://nodes15.domain.ac.uk#nodes15"/>
+	<rdf:li rdf:resource="http://nodes16.domain.ac.uk#nodes16"/>
+	<rdf:li rdf:resource="http://nodes17.domain.ac.uk#nodes17"/>
+	<rdf:li rdf:resource="http://nodes18.domain.ac.uk#nodes18"/>
+	<rdf:li rdf:resource="http://nodes19.domain.ac.uk#nodes19"/>
+	<rdf:li rdf:resource="http://nodes20.domain.ac.uk#nodes20"/>
+	<rdf:li rdf:resource="http://nodes21.domain.ac.uk#nodes21"/>
+	<rdf:li rdf:resource="http://nodes22.domain.ac.uk#nodes22"/>
+	<rdf:li rdf:resource="http://nodes23.domain.ac.uk#nodes23"/>
+	<rdf:li rdf:resource="http://nodes24.domain.ac.uk#nodes24"/>
+</rdf:Bag>
+
+<ndl:Device rdf:about="http://nodes0.domain.ac.uk#nodes0">
+	<rdfs:label>nodes0</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes0.domain.ac.uk#nodes0:eth1"/>
+	<geo:lat>-1.0526395903204981</geo:lat>
+	<geo:long>53.901772455217426</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes1.domain.ac.uk#nodes1">
+	<rdfs:label>nodes1</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes1.domain.ac.uk#nodes1:eth1"/>
+	<geo:lat>-1.0536935869898496</geo:lat>
+	<geo:long>53.90226486964263</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes2.domain.ac.uk#nodes2">
+	<rdfs:label>nodes2</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes2.domain.ac.uk#nodes2:eth1"/>
+	<geo:lat>-1.0430512861944947</geo:lat>
+	<geo:long>53.9018534926152</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes3.domain.ac.uk#nodes3">
+	<rdfs:label>nodes3</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes3.domain.ac.uk#nodes3:eth1"/>
+	<geo:lat>-1.0498327293457652</geo:lat>
+	<geo:long>53.897770508207984</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes4.domain.ac.uk#nodes4">
+	<rdfs:label>nodes4</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes4.domain.ac.uk#nodes4:eth1"/>
+	<geo:lat>-1.0490822984520873</geo:lat>
+	<geo:long>53.891322175029046</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes5.domain.ac.uk#nodes5">
+	<rdfs:label>nodes5</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes5.domain.ac.uk#nodes5:eth1"/>
+	<geo:lat>-1.050778492968143</geo:lat>
+	<geo:long>53.90219886222055</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes6.domain.ac.uk#nodes6">
+	<rdfs:label>nodes6</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes6.domain.ac.uk#nodes6:eth1"/>
+	<geo:lat>-1.0502554447455779</geo:lat>
+	<geo:long>53.89572154051177</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes7.domain.ac.uk#nodes7">
+	<rdfs:label>nodes7</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes7.domain.ac.uk#nodes7:eth1"/>
+	<geo:lat>-1.056344296529215</geo:lat>
+	<geo:long>53.89368305847294</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes8.domain.ac.uk#nodes8">
+	<rdfs:label>nodes8</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes8.domain.ac.uk#nodes8:eth1"/>
+	<geo:lat>-1.0504891579158582</geo:lat>
+	<geo:long>53.893703531780226</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes9.domain.ac.uk#nodes9">
+	<rdfs:label>nodes9</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes9.domain.ac.uk#nodes9:eth1"/>
+	<geo:lat>-1.05099186125378</geo:lat>
+	<geo:long>53.8982945140469</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes10.domain.ac.uk#nodes10">
+	<rdfs:label>nodes10</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes10.domain.ac.uk#nodes10:eth1"/>
+	<geo:lat>-1.0545858983806615</geo:lat>
+	<geo:long>53.89967616889144</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes11.domain.ac.uk#nodes11">
+	<rdfs:label>nodes11</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes11.domain.ac.uk#nodes11:eth1"/>
+	<geo:lat>-1.0511958160063313</geo:lat>
+	<geo:long>53.90224841500022</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes12.domain.ac.uk#nodes12">
+	<rdfs:label>nodes12</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth30"/>
+	<geo:lat>-1.0447231183400103</geo:lat>
+	<geo:long>53.90515459725496</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes13.domain.ac.uk#nodes13">
+	<rdfs:label>nodes13</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth30"/>
+	<geo:lat>-1.0510036524307635</geo:lat>
+	<geo:long>53.90837482829714</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes14.domain.ac.uk#nodes14">
+	<rdfs:label>nodes14</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth30"/>
+	<geo:lat>-1.0494879279262694</geo:lat>
+	<geo:long>53.90000081838218</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes15.domain.ac.uk#nodes15">
+	<rdfs:label>nodes15</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth30"/>
+	<geo:lat>-1.0465279493162456</geo:lat>
+	<geo:long>53.89959225527062</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes16.domain.ac.uk#nodes16">
+	<rdfs:label>nodes16</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth30"/>
+	<geo:lat>-1.054761264681262</geo:lat>
+	<geo:long>53.90478098296956</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes17.domain.ac.uk#nodes17">
+	<rdfs:label>nodes17</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth30"/>
+	<geo:lat>-1.0519433573665378</geo:lat>
+	<geo:long>53.90619105910211</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes18.domain.ac.uk#nodes18">
+	<rdfs:label>nodes18</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth30"/>
+	<geo:lat>-1.0509737188066233</geo:lat>
+	<geo:long>53.90184363204212</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes19.domain.ac.uk#nodes19">
+	<rdfs:label>nodes19</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth30"/>
+	<geo:lat>-1.0498681278469548</geo:lat>
+	<geo:long>53.899147539925906</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes20.domain.ac.uk#nodes20">
+	<rdfs:label>nodes20</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth30"/>
+	<geo:lat>-1.047308403166316</geo:lat>
+	<geo:long>53.8971223866658</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes21.domain.ac.uk#nodes21">
+	<rdfs:label>nodes21</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth30"/>
+	<geo:lat>-1.0495867622634676</geo:lat>
+	<geo:long>53.89816550589258</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes22.domain.ac.uk#nodes22">
+	<rdfs:label>nodes22</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth30"/>
+	<geo:lat>-1.0523072622418261</geo:lat>
+	<geo:long>53.902454736987764</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes23.domain.ac.uk#nodes23">
+	<rdfs:label>nodes23</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth30"/>
+	<geo:lat>-1.0490249350659848</geo:lat>
+	<geo:long>53.89408564282097</geo:long>
+</ndl:Device>
+<ndl:Device rdf:about="http://nodes24.domain.ac.uk#nodes24">
+	<rdfs:label>nodes24</rdfs:label>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth1"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth2"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth3"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth4"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth5"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth6"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth7"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth8"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth9"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth10"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth11"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth12"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth13"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth14"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth15"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth16"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth17"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth18"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth19"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth20"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth21"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth22"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth23"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth24"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth25"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth26"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth27"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth28"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth29"/>
+	<ndl:hasInterface rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth30"/>
+	<geo:lat>-1.0469999943206794</geo:lat>
+	<geo:long>53.90473380370059</geo:long>
+</ndl:Device><ndl:Interface rdf:about="http://nodes0.domain.ac.uk#nodes0:eth1">
+	<rdfs:label>nodes0:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes0.domain.ac.uk#nodes0:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes0.domain.ac.uk#nodes0:eth1">
+	<rdfs:label>nodes0:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes0.domain.ac.uk#nodes0:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes1.domain.ac.uk#nodes1:eth1">
+	<rdfs:label>nodes1:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.984266773800521E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes2.domain.ac.uk#nodes2:eth1">
+	<rdfs:label>nodes2:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth3"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.118090951682799E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes4.domain.ac.uk#nodes4:eth1">
+	<rdfs:label>nodes4:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2184114997753049E-5</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes5.domain.ac.uk#nodes5:eth1">
+	<rdfs:label>nodes5:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.154532608883744E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes6.domain.ac.uk#nodes6:eth1">
+	<rdfs:label>nodes6:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes11.domain.ac.uk#nodes11:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.500017333910351E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes7.domain.ac.uk#nodes7:eth1">
+	<rdfs:label>nodes7:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2071211096101564E-5</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes8.domain.ac.uk#nodes8:eth1">
+	<rdfs:label>nodes8:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.919666403093371E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes9.domain.ac.uk#nodes9:eth1">
+	<rdfs:label>nodes9:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.6392345339253755E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes10.domain.ac.uk#nodes10:eth1">
+	<rdfs:label>nodes10:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth2"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.722285875265343E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes11.domain.ac.uk#nodes11:eth1">
+	<rdfs:label>nodes11:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes6.domain.ac.uk#nodes6:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.500017333910351E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth1">
+	<rdfs:label>nodes12:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth1">
+	<rdfs:label>nodes12:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth2">
+	<rdfs:label>nodes12:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth3"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9315182183446957E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth3">
+	<rdfs:label>nodes12:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth3"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.877506887101468E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth4">
+	<rdfs:label>nodes12:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth6"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.084826298165793E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth5">
+	<rdfs:label>nodes12:eth5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth2"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.900367960258E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth6">
+	<rdfs:label>nodes12:eth6</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth3"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.379593383455294E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth7">
+	<rdfs:label>nodes12:eth7</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes15.domain.ac.uk#nodes15:eth4"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.877506887101468E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth8">
+	<rdfs:label>nodes12:eth8</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth7"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.084826298165793E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth9">
+	<rdfs:label>nodes12:eth9</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth2"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.715474023166322E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth10">
+	<rdfs:label>nodes12:eth10</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth3"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.887539767598082E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes12.domain.ac.uk#nodes12:eth11">
+	<rdfs:label>nodes12:eth11</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth6"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.597221587013269E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes13.domain.ac.uk#nodes13:eth1">
+	<rdfs:label>nodes13:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes5.domain.ac.uk#nodes5:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.154532608883744E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes13.domain.ac.uk#nodes13:eth2">
+	<rdfs:label>nodes13:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth3"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.982915411987445E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes13.domain.ac.uk#nodes13:eth3">
+	<rdfs:label>nodes13:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth10"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.887539767598082E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes14.domain.ac.uk#nodes14:eth1">
+	<rdfs:label>nodes14:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes1.domain.ac.uk#nodes1:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.984266773800521E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes14.domain.ac.uk#nodes14:eth2">
+	<rdfs:label>nodes14:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth2"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.79156499261392E-7</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes14.domain.ac.uk#nodes14:eth3">
+	<rdfs:label>nodes14:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes16.domain.ac.uk#nodes16:eth2"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.936905616452999E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes14.domain.ac.uk#nodes14:eth4">
+	<rdfs:label>nodes14:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes22.domain.ac.uk#nodes22:eth3"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1177498799453396E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes15.domain.ac.uk#nodes15:eth1">
+	<rdfs:label>nodes15:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes8.domain.ac.uk#nodes8:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.919666403093371E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes15.domain.ac.uk#nodes15:eth2">
+	<rdfs:label>nodes15:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes10.domain.ac.uk#nodes10:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.722285875265343E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes15.domain.ac.uk#nodes15:eth3">
+	<rdfs:label>nodes15:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth3"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.877506887101468E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes15.domain.ac.uk#nodes15:eth4">
+	<rdfs:label>nodes15:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth7"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.877506887101468E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes16.domain.ac.uk#nodes16:eth1">
+	<rdfs:label>nodes16:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes4.domain.ac.uk#nodes4:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2184114997753049E-5</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes16.domain.ac.uk#nodes16:eth2">
+	<rdfs:label>nodes16:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth3"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.936905616452999E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes16.domain.ac.uk#nodes16:eth3">
+	<rdfs:label>nodes16:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth6"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.379593383455294E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes17.domain.ac.uk#nodes17:eth1">
+	<rdfs:label>nodes17:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.715126443973208E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes17.domain.ac.uk#nodes17:eth2">
+	<rdfs:label>nodes17:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth2"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.299130803230795E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes17.domain.ac.uk#nodes17:eth3">
+	<rdfs:label>nodes17:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes13.domain.ac.uk#nodes13:eth2"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.982915411987445E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes17.domain.ac.uk#nodes17:eth4">
+	<rdfs:label>nodes17:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth2"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.494737644948004E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes17.domain.ac.uk#nodes17:eth5">
+	<rdfs:label>nodes17:eth5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth3"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.494737644948004E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes17.domain.ac.uk#nodes17:eth6">
+	<rdfs:label>nodes17:eth6</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth4"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.084826298165793E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes17.domain.ac.uk#nodes17:eth7">
+	<rdfs:label>nodes17:eth7</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth8"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.084826298165793E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes17.domain.ac.uk#nodes17:eth8">
+	<rdfs:label>nodes17:eth8</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth5"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.1244562866584635E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes18.domain.ac.uk#nodes18:eth1">
+	<rdfs:label>nodes18:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.715126443973208E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes18.domain.ac.uk#nodes18:eth2">
+	<rdfs:label>nodes18:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth5"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.900367960258E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes18.domain.ac.uk#nodes18:eth3">
+	<rdfs:label>nodes18:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth4"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.098685161099207E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes19.domain.ac.uk#nodes19:eth1">
+	<rdfs:label>nodes19:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes21.domain.ac.uk#nodes21:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.520395135992302E-7</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes19.domain.ac.uk#nodes19:eth2">
+	<rdfs:label>nodes19:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth2"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.79156499261392E-7</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes19.domain.ac.uk#nodes19:eth3">
+	<rdfs:label>nodes19:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes2.domain.ac.uk#nodes2:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.118090951682799E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes19.domain.ac.uk#nodes19:eth4">
+	<rdfs:label>nodes19:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes24.domain.ac.uk#nodes24:eth5"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.237677024354026E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes19.domain.ac.uk#nodes19:eth5">
+	<rdfs:label>nodes19:eth5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth8"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.1244562866584635E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes19.domain.ac.uk#nodes19:eth6">
+	<rdfs:label>nodes19:eth6</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth11"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.597221587013269E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes20.domain.ac.uk#nodes20:eth1">
+	<rdfs:label>nodes20:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes20.domain.ac.uk#nodes20:eth1">
+	<rdfs:label>nodes20:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes20.domain.ac.uk#nodes20:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes20.domain.ac.uk#nodes20:eth2">
+	<rdfs:label>nodes20:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth4"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.494737644948004E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes20.domain.ac.uk#nodes20:eth3">
+	<rdfs:label>nodes20:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth5"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.494737644948004E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes21.domain.ac.uk#nodes21:eth1">
+	<rdfs:label>nodes21:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.520395135992302E-7</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes22.domain.ac.uk#nodes22:eth1">
+	<rdfs:label>nodes22:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes9.domain.ac.uk#nodes9:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.6392345339253755E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes22.domain.ac.uk#nodes22:eth2">
+	<rdfs:label>nodes22:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth9"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.715474023166322E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes22.domain.ac.uk#nodes22:eth3">
+	<rdfs:label>nodes22:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes14.domain.ac.uk#nodes14:eth4"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.1177498799453396E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes23.domain.ac.uk#nodes23:eth1">
+	<rdfs:label>nodes23:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes23.domain.ac.uk#nodes23:eth1">
+	<rdfs:label>nodes23:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes23.domain.ac.uk#nodes23:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes24.domain.ac.uk#nodes24:eth1">
+	<rdfs:label>nodes24:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes7.domain.ac.uk#nodes7:eth1"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2071211096101564E-5</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes24.domain.ac.uk#nodes24:eth2">
+	<rdfs:label>nodes24:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes17.domain.ac.uk#nodes17:eth2"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.299130803230795E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes24.domain.ac.uk#nodes24:eth3">
+	<rdfs:label>nodes24:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes12.domain.ac.uk#nodes12:eth2"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.9315182183446957E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes24.domain.ac.uk#nodes24:eth4">
+	<rdfs:label>nodes24:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes18.domain.ac.uk#nodes18:eth3"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.098685161099207E-6</ndl:latency>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://nodes24.domain.ac.uk#nodes24:eth5">
+	<rdfs:label>nodes24:eth5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://nodes19.domain.ac.uk#nodes19:eth4"/>
+<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0E7</ndl:capacity>
+<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.237677024354026E-6</ndl:latency>
+</ndl:Interface>
+
+
+<ndl:VideoServer rdf:about="http://nodes1.domain.ac.uk#nodes1:VidServ1">
+	<rdfs:label>nodes1:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0206</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344.0</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316.0</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+
+<ndl:VideoServer rdf:about="http://nodes2.domain.ac.uk#nodes2:VidServ1">
+	<rdfs:label>nodes2:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0206</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344.0</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316.0</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+
+<ndl:VideoServer rdf:about="http://nodes6.domain.ac.uk#nodes6:VidServ1">
+	<rdfs:label>nodes6:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0206</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344.0</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316.0</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+
+<ndl:VideoServer rdf:about="http://nodes7.domain.ac.uk#nodes7:VidServ1">
+	<rdfs:label>nodes7:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0206</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344.0</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316.0</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+
+<ndl:VideoServer rdf:about="http://nodes9.domain.ac.uk#nodes9:VidServ1">
+	<rdfs:label>nodes9:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0206</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344.0</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316.0</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+
+<ndl:VideoServer rdf:about="http://nodes9.domain.ac.uk#nodes9:VidServ2">
+	<rdfs:label>nodes9:VidServ2</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0206</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344.0</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316.0</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes0.domain.ac.uk#nodes0:VidServerConnection1">
+	<rdfs:label>nodes0:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes9.domain.ac.uk#nodes9:VidServ2"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes2.domain.ac.uk#nodes2:VidServerConnection1">
+	<rdfs:label>nodes2:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes6.domain.ac.uk#nodes6:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes3.domain.ac.uk#nodes3:VidServerConnection1">
+	<rdfs:label>nodes3:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes6.domain.ac.uk#nodes6:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes5.domain.ac.uk#nodes5:VidServerConnection1">
+	<rdfs:label>nodes5:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes1.domain.ac.uk#nodes1:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes5.domain.ac.uk#nodes5:VidServerConnection2">
+	<rdfs:label>nodes5:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes6.domain.ac.uk#nodes6:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes6.domain.ac.uk#nodes6:VidServerConnection1">
+	<rdfs:label>nodes6:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes7.domain.ac.uk#nodes7:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes8.domain.ac.uk#nodes8:VidServerConnection1">
+	<rdfs:label>nodes8:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes6.domain.ac.uk#nodes6:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes8.domain.ac.uk#nodes8:VidServerConnection2">
+	<rdfs:label>nodes8:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes7.domain.ac.uk#nodes7:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes10.domain.ac.uk#nodes10:VidServerConnection1">
+	<rdfs:label>nodes10:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes6.domain.ac.uk#nodes6:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes10.domain.ac.uk#nodes10:VidServerConnection2">
+	<rdfs:label>nodes10:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes6.domain.ac.uk#nodes6:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes11.domain.ac.uk#nodes11:VidServerConnection1">
+	<rdfs:label>nodes11:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes7.domain.ac.uk#nodes7:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<ndl:VideoServerConnection rdf:about="http://nodes11.domain.ac.uk#nodes11:VidServerConnection2">
+	<rdfs:label>nodes11:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://nodes1.domain.ac.uk#nodes1:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+</rdf:RDF>

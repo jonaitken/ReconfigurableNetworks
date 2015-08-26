@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:ndl="http://www.science.uva.nl/research/sne/ndl#"
+xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+xmlns:vc="http://www.w3.org/2001/vcard-rdf/3.0#"
+xml:base="http://trafficlight.uva.netherlight.nl/ndl/files/lighthouse.rdf">
+
+
+<!-- Description of LightHouse -->
+<ndl:Location rdf:about="http://www.uva.netherlight.nl#LightHouse">
+	<rdfs:label xml:lang="en">Lighthouse UvA/SARA lab</rdfs:label>
+	<!-- rdfs:label is the same as ndl:name -->
+	<vc:ADR rdf:parseType="Resource">
+		<vc:Street>Kruislaan 403</vc:Street>
+		<vc:Locality>Amsterdam</vc:Locality>
+		<vc:Country>Netherlands</vc:Country>
+	</vc:ADR>
+	<geo:lat>4.95262</geo:lat>
+	<geo:long>52.35623</geo:long>
+</ndl:Location>
+
+<!-- Description of NetherLight -->
+<ndl:Location rdf:about="http://noc.netherlight.net/netherlight.rdf#NetherLight">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+	<rdfs:label xml:lang="en">NetherLight</rdfs:label>
+	<geo:lat>4.95279</geo:lat>
+	<geo:long>52.35605</geo:long>
+</ndl:Location>
+
+<!-- Description of NIKHEF-serverroom -->
+<ndl:Location rdf:about="http://www.nikhef.nl#NIKHEF-serverroom">
+	<rdfs:label xml:lang="en">NIKHEF serverroom</rdfs:label>
+	<geo:lat>4.95127</geo:lat>
+	<geo:long>52.35617</geo:long>
+</ndl:Location>
+
+<!-- Description of UvA-serverroom -->
+<ndl:Location rdf:about="http://www.science.uva.nl#UvA-serverroom">
+	<rdfs:label xml:lang="en">UvA serverroom F-building</rdfs:label>
+	<geo:lat>4.95028</geo:lat>
+	<geo:long>52.35538</geo:long>
+</ndl:Location>
+
+<!-- Description of StarLight -->
+<ndl:Location rdf:about="http://www.startap.net/#StarLight">
+	<rdfs:label xml:lang="en">StarLight</rdfs:label>
+	<!-- rdfs:seeAlso rdf:resource="http://www.startap.net/starlight/network.rdf"/ -->
+</ndl:Location>
+
+<!--Rembrandt cluster-->
+<!--Since there is no "cluster" class yet, we simply use "Bag"-->
+<rdf:Bag rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt">
+	<rdf:li rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0"/>
+	<rdf:li rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1"/>
+	<rdf:li rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2"/>
+	<rdf:li rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3"/>
+	<rdf:li rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4"/>
+	<rdf:li rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5"/>
+	<rdf:li rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6"/>
+	<rdf:li rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7"/>
+	<rdf:li rdf:resource="http://rembrandt8.uva.netherlight.nl#Rembrandt8"/>
+	<rdf:li rdf:resource="http://rembrandt9.uva.netherlight.nl#Rembrandt9"/>
+	<rdf:li rdf:resource="http://rembrandt10.uva.netherlight.nl#Rembrandt10"/>
+	<rdf:li rdf:resource="http://rembrandt11.uva.netherlight.nl#Rembrandt11"/>
+	<rdf:li rdf:resource="http://rembrandt12.uva.netherlight.nl#Rembrandt12"/>
+	<rdf:li rdf:resource="http://rembrandt13.uva.netherlight.nl#Rembrandt13"/>
+	<rdf:li rdf:resource="http://rembrandt14.uva.netherlight.nl#Rembrandt14"/>
+	<rdf:li rdf:resource="http://rembrandt15.uva.netherlight.nl#Rembrandt15"/>
+	<rdf:li rdf:resource="http://rembrandt16.uva.netherlight.nl#Rembrandt16"/>
+	<rdf:li rdf:resource="http://rembrandt17.uva.netherlight.nl#Rembrandt17"/>
+	<rdf:li rdf:resource="http://rembrandt18.uva.netherlight.nl#Rembrandt18"/>
+	<rdf:li rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19"/>
+	<rdf:li rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20"/>
+	<rdf:li rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21"/>
+	<rdf:li rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22"/>
+	<rdf:li rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23"/>
+	<rdf:li rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24"/>
+	<rdf:li rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25"/>
+	<rdf:li rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26"/>
+	<rdf:li rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27"/>
+	<rdf:li rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28"/>
+	<rdf:li rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29"/>
+</rdf:Bag>
+
+
+<!--Rembrandt0-->
+<ndl:Device rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt0">
+	<rdfs:label>Rembrandt0</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0:eth1"/>
+	<ndl:hasVideoServer rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0:VidServ1"/>
+	<ndl:hasVideoServer rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0:VidServ2"/>
+	<geo:lat>-1.0528072714805603</geo:lat>
+	<geo:long>53.94962535318904</geo:long>
+</ndl:Device>
+
+<!--Rembrandt1-->
+<ndl:Device rdf:about="http://rembrandt1.uva.netherlight.nl#Rembrandt1">
+	<rdfs:label>Rembrandt1</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth1"/>
+	<ndl:hasVideoServer rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:VidServ1"/>
+	<geo:lat>-1.0535019636154175</geo:lat>
+	<geo:long>53.94532853618514</geo:long>
+</ndl:Device>
+
+<!--Rembrandt2-->
+<ndl:Device rdf:about="http://rembrandt2.uva.netherlight.nl#Rembrandt2">
+	<rdfs:label>Rembrandt2</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2:eth1"/>
+	<ndl:hasVideoServer rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2:VidServ1"/>
+	<geo:lat>-1.053687036037445</geo:lat>
+	<geo:long>53.94602470741682</geo:long>
+</ndl:Device>
+
+<!--Rembrandt3-->
+<ndl:Device rdf:about="http://rembrandt3.uva.netherlight.nl#Rembrandt3">
+	<rdfs:label>Rembrandt3</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3:eth1"/>
+	<ndl:hasVideoServer rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3:VidServ1"/>
+	<geo:lat>-1.0556297136306763</geo:lat>
+	<geo:long>53.94631413975456</geo:long>
+</ndl:Device>
+
+<!--Rembrandt4-->
+<ndl:Device rdf:about="http://rembrandt4.uva.netherlight.nl#Rembrandt4">
+	<rdfs:label>Rembrandt4</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4:eth1"/>
+	<ndl:hasVideoServer rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4:VidServ1"/>
+	<geo:lat>-1.0578927397727966</geo:lat>
+	<geo:long>53.94678874591617</geo:long>
+</ndl:Device>
+
+<!--Rembrandt5-->
+<ndl:Device rdf:about="http://rembrandt5.uva.netherlight.nl#Rembrandt5">
+	<rdfs:label>Rembrandt5</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5:eth1"/>
+	<ndl:hasVideoServer rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5:VidServ1"/>
+	<geo:lat>-1.0580927397727966</geo:lat>
+	<geo:long>53.94678874591617</geo:long>
+</ndl:Device>
+
+<!--Rembrandt6-->
+<ndl:Device rdf:about="http://rembrandt6.uva.netherlight.nl#Rembrandt6">
+	<rdfs:label>Rembrandt6</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:eth1"/>
+	<ndl:hasVideoServer rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:VidServ1"/>
+	<ndl:hasVideoServer rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:VidServ2"/>
+	<geo:lat>-1.0585927397727966</geo:lat>
+	<geo:long>53.94678874591617</geo:long>
+</ndl:Device>
+
+
+<!--Rembrandt7-->
+<ndl:Device rdf:about="http://rembrandt7.uva.netherlight.nl#Rembrandt7">
+	<rdfs:label>Rembrandt7</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7:eth1"/>
+	<ndl:hasVideoServer rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7:VidServ1"/>
+	<geo:lat>-1.0595927397727966</geo:lat>
+	<geo:long>53.94678874591617</geo:long>
+</ndl:Device>
+
+
+<!--Rembrandt8-->
+<ndl:Device rdf:about="http://rembrandt8.uva.netherlight.nl#Rembrandt8">
+	<rdfs:label>Rembrandt8</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt8.uva.netherlight.nl#Rembrandt8:eth1"/>
+	<ndl:hasVideoServer rdf:resource="http://rembrandt8.uva.netherlight.nl#Rembrandt8:VidServ1"/>
+	<geo:lat>-1.0599927397727966</geo:lat>
+	<geo:long>53.94678874591617</geo:long>
+</ndl:Device>
+
+
+<!--Rembrandt9-->
+<ndl:Device rdf:about="http://rembrandt9.uva.netherlight.nl#Rembrandt9">
+	<rdfs:label>Rembrandt9</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt9:eth1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt9:VidConnection1"/>
+	<geo:lat>-1.0498595237731934</geo:lat>
+	<geo:long>53.94735860849437</geo:long>
+</ndl:Device>
+
+
+<!--Rembrandt10-->
+<ndl:Device rdf:about="http://rembrandt10.uva.netherlight.nl#Rembrandt10">
+	<rdfs:label>Rembrandt10</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt10.uva.netherlight.nl#Rembrandt10:eth1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt10.uva.netherlight.nl#Rembrandt10:VidConnection1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt10.uva.netherlight.nl#Rembrandt10:VidConnection2"/>
+	<geo:lat>-1.050017774105072</geo:lat>
+	<geo:long>53.94876192109405</geo:long>
+</ndl:Device>
+
+<!--Rembrandt11-->
+<ndl:Device rdf:about="http://rembrandt8.uva.netherlight.nl#Rembrandt11">
+	<rdfs:label>Rembrandt11</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt11.uva.netherlight.nl#Rembrandt11:eth1"/>	
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt11.uva.netherlight.nl#Rembrandt11:VidConnection1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt11.uva.netherlight.nl#Rembrandt11:VidConnection2"/>
+	<geo:lat>-1.05289172714805603</geo:lat>
+	<geo:long>53.94942535318904</geo:long>
+</ndl:Device>
+
+<!--Rembrandt12-->
+<ndl:Device rdf:about="http://rembrandt12.uva.netherlight.nl#Rembrandt12">
+	<rdfs:label>Rembrandt12</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt12.uva.netherlight.nl#Rembrandt12:eth1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt12.uva.netherlight.nl#Rembrandt12:VidConnection1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt12.uva.netherlight.nl#Rembrandt12:VidConnection2"/>
+	<geo:lat>-1.0531927807426453</geo:lat>
+	<geo:long>53.94616937733914</geo:long>
+</ndl:Device>
+
+<!--Rembrandt13-->
+<ndl:Device rdf:about="http://rembrandt13.uva.netherlight.nl#Rembrandt13">
+	<rdfs:label>Rembrandt13</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt10.uva.netherlight.nl#Rembrandt13:eth1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt13.uva.netherlight.nl#Rembrandt13:VidConnection1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt13.uva.netherlight.nl#Rembrandt13:VidConnection2"/>
+	<geo:lat>-1.0554297136306763</geo:lat>
+	<geo:long>53.94621513975456</geo:long>
+</ndl:Device>
+
+<!--Rembrandt14-->
+<ndl:Device rdf:about="http://rembrandt14.uva.netherlight.nl#Rembrandt14">
+	<rdfs:label>Rembrandt14</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt14.uva.netherlight.nl#Rembrandt14:eth1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt14.uva.netherlight.nl#Rembrandt14:VidConnection1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt14.uva.netherlight.nl#Rembrandt14:VidConnection2"/>
+	<geo:lat>-1.0562673211097717</geo:lat>
+	<geo:long>53.948910300093516</geo:long>
+</ndl:Device>
+
+<!--Rembrandt15-->
+<ndl:Device rdf:about="http://rembrandt15.uva.netherlight.nl#Rembrandt15">
+	<rdfs:label>Rembrandt15</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt14.uva.netherlight.nl#Rembrandt15:eth1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt15.uva.netherlight.nl#Rembrandt15:VidConnection1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt15.uva.netherlight.nl#Rembrandt15:VidConnection2"/>
+	<geo:lat>-1.0562473211097717</geo:lat>
+	<geo:long>53.948910300093516</geo:long>
+</ndl:Device>
+
+
+<!--Rembrandt16-->
+<ndl:Device rdf:about="http://rembrandt16.uva.netherlight.nl#Rembrandt16">
+	<rdfs:label>Rembrandt16</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt16.uva.netherlight.nl#Rembrandt16:eth1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt16.uva.netherlight.nl#Rembrandt16:VidConnection1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt16.uva.netherlight.nl#Rembrandt16:VidConnection2"/>
+	<geo:lat>-1.0563573211097717</geo:lat>
+	<geo:long>53.948910300093516</geo:long>
+</ndl:Device>
+
+
+<!--Rembrandt17-->
+<ndl:Device rdf:about="http://rembrandt17.uva.netherlight.nl#Rembrandt17">
+	<rdfs:label>Rembrandt17</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt14.uva.netherlight.nl#Rembrandt17:eth1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt17.uva.netherlight.nl#Rembrandt17:VidConnection1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt17.uva.netherlight.nl#Rembrandt17:VidConnection2"/>
+	<geo:lat>-1.0562673211097717</geo:lat>
+	<geo:long>53.948910300093516</geo:long>
+</ndl:Device>
+
+
+<!--Rembrandt18-->
+<ndl:Device rdf:about="http://rembrandt18.uva.netherlight.nl#Rembrandt18">
+	<rdfs:label>Rembrandt18</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt14.uva.netherlight.nl#Rembrandt18:eth1"/>
+	<ndl:hasVideoServerConnection rdf:resource="http://rembrandt18.uva.netherlight.nl#Rembrandt18:VidConnection1"/>
+	<geo:lat>-1.0561073211097717</geo:lat>
+	<geo:long>53.948910300093516</geo:long>
+</ndl:Device>
+
+
+<!--Rembrandt19-->
+<ndl:Device rdf:about="http://rembrandt19.uva.netherlight.nl#Rembrandt19">
+	<rdfs:label>Rembrandt19</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth3"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth4"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth5"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth6"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth7"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth8"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth9"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth10"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth11"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth12"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth13"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth14"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth15"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth16"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth17"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth18"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth21"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth22"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth23"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth24"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth25"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth26"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth27"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth28"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth29"/>
+	<geo:lat>-1.0531827807426453</geo:lat>
+	<geo:long>53.94632937733914</geo:long>
+</ndl:Device>
+
+<!--Rembrandt20-->
+<ndl:Device rdf:about="http://rembrandt20.uva.netherlight.nl#Rembrandt20">
+	<rdfs:label>Rembrandt20</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth3"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth4"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth5"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth6"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth7"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth8"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth9"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth10"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth11"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth12"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth13"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth14"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth15"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth16"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth17"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth18"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth21"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth22"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth23"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth24"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth25"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth26"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth27"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth28"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth29"/>
+	<geo:lat>-1.0530057549476624</geo:lat>
+	<geo:long>53.94706026035942</geo:long>
+</ndl:Device>
+
+<!--Rembrandt21-->
+<ndl:Device rdf:about="http://rembrandt21.uva.netherlight.nl#Rembrandt21">
+	<rdfs:label>Rembrandt21</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth3"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth4"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth5"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth6"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth7"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth8"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth9"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth10"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth11"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth12"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth13"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth14"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth15"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth16"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth17"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth18"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth21"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth22"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth23"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth24"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth25"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth26"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth27"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth28"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth29"/>
+	<geo:lat>-1.0535556077957153</geo:lat>
+	<geo:long>53.947571712998446</geo:long>
+</ndl:Device>
+
+<!--Rembrandt22-->
+<ndl:Device rdf:about="http://rembrandt22.uva.netherlight.nl#Rembrandt22">
+	<rdfs:label>Rembrandt22</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth3"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth4"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth5"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth6"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth7"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth8"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth9"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth10"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth11"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth12"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth13"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth14"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth15"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth16"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth17"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth18"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth21"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth22"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth23"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth24"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth25"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth26"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth27"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth28"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth29"/>
+	<geo:lat>-1.0537460446357727</geo:lat>
+	<geo:long>53.94604996511156</geo:long>
+</ndl:Device>
+
+<!--Rembrandt23-->
+<ndl:Device rdf:about="http://rembrandt23.uva.netherlight.nl#Rembrandt23">
+	<rdfs:label>Rembrandt23</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth3"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth4"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth5"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth6"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth7"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth8"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth9"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth10"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth11"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth12"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth13"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth14"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth15"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth16"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth17"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth18"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth21"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth22"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth23"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth24"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth25"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth26"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth27"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth28"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth29"/>
+	<geo:lat>-1.0518014430999756</geo:lat>
+	<geo:long>53.949218105909</geo:long>
+</ndl:Device>
+
+<!--Rembrandt24-->
+<ndl:Device rdf:about="http://rembrandt24.uva.netherlight.nl#Rembrandt24">
+	<rdfs:label>Rembrandt24</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth3"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth4"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth5"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth6"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth7"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth8"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth9"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth10"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth11"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth12"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth13"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth14"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth15"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth16"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth17"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth18"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth21"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth22"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth23"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth24"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth25"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth26"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth27"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth28"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth29"/>
+	<geo:lat>-1.0523861646652222</geo:lat>
+	<geo:long>53.94832309500639</geo:long>
+</ndl:Device>
+
+<!--Rembrandt25-->
+<ndl:Device rdf:about="http://rembrandt25.uva.netherlight.nl#Rembrandt25">
+	<rdfs:label>Rembrandt25</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth3"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth4"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth5"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth6"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth7"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth8"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth9"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth10"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth11"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth12"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth13"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth14"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth15"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth16"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth17"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth18"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth21"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth22"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth23"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth24"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth25"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth26"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth27"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth28"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth29"/>
+	<geo:lat>-1.0555297136306763</geo:lat>
+	<geo:long>53.94621413975456</geo:long>
+</ndl:Device>
+
+<!--Rembrandt26-->
+<ndl:Device rdf:about="http://rembrandt26.uva.netherlight.nl#Rembrandt26">
+	<rdfs:label>Rembrandt26</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth3"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth4"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth5"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth6"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth7"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth8"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth9"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth10"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth11"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth12"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth13"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth14"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth15"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth16"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth17"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth18"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth21"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth22"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth23"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth24"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth25"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth26"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth27"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth28"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth29"/>
+	<geo:lat>-1.0569056868553162</geo:lat>
+	<geo:long>53.94754329912749</geo:long>
+</ndl:Device>
+
+<!--Rembrandt27-->
+<ndl:Device rdf:about="http://rembrandt27.uva.netherlight.nl#Rembrandt27">
+	<rdfs:label>Rembrandt27</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth3"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth4"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth5"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth6"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth7"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth8"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth9"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth10"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth11"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth12"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth13"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth14"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth15"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth16"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth17"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth18"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth21"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth22"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth23"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth24"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth25"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth26"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth27"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth28"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth29"/>
+	<geo:lat>-1.0581207275390625</geo:lat>
+	<geo:long>53.94769957517824</geo:long>
+</ndl:Device>
+
+
+<!--Rembrandt28-->
+<ndl:Device rdf:about="http://rembrandt28.uva.netherlight.nl#Rembrandt28">
+	<rdfs:label>Rembrandt28</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth3"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth4"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth5"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth6"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth7"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth8"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth9"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth10"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth11"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth12"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth13"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth14"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth15"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth16"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth17"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth18"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth21"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth22"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth23"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth24"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth25"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth26"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth27"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth28"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth29"/>
+	<geo:lat>-1.02808</geo:lat>  
+	<geo:long>53.985519</geo:long>
+</ndl:Device>
+
+
+
+
+<!--Rembrandt29-->
+<ndl:Device rdf:about="http://rembrandt29.uva.netherlight.nl#Rembrandt29">
+	<rdfs:label>Rembrandt29</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth3"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth4"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth5"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth6"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth7"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth8"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth9"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth10"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth11"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth12"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth13"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth14"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth15"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth16"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth17"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth18"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth19"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth20"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth21"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth22"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth23"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth24"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth25"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth26"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth27"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth28"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth29"/>
+	<geo:lat>-1.029931</geo:lat>
+	<geo:long>53.948156</geo:long>
+</ndl:Device>
+
+
+<!--Rembrandt0:VidServ1-->
+<ndl:VideoServer rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt0:VidServ1">
+	<rdfs:label>Rembrandt0:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt0:VidServ2-->
+<ndl:VideoServer rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt0:VidServ2">
+	<rdfs:label>Rembrandt0:VidServ2</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt1:VidServ1-->
+<ndl:VideoServer rdf:about="http://rembrandt1.uva.netherlight.nl#Rembrandt1:VidServ1">
+	<rdfs:label>Rembrandt1:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt2:VidServ1-->
+<ndl:VideoServer rdf:about="http://rembrandt2.uva.netherlight.nl#Rembrandt2:VidServ1">
+	<rdfs:label>Rembrandt2:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt3:VidServ1-->
+<ndl:VideoServer rdf:about="http://rembrandt3.uva.netherlight.nl#Rembrandt3:VidServ1">
+	<rdfs:label>Rembrandt3:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt4:VidServ1-->
+<ndl:VideoServer rdf:about="http://rembrandt4.uva.netherlight.nl#Rembrandt4:VidServ1">
+	<rdfs:label>Rembrandt4:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt5:VidServ1-->
+<ndl:VideoServer rdf:about="http://rembrandt5.uva.netherlight.nl#Rembrandt5:VidServ1">
+	<rdfs:label>Rembrandt5:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt6:VidServ1-->
+<ndl:VideoServer rdf:about="http://rembrandt6.uva.netherlight.nl#Rembrandt6:VidServ1">
+	<rdfs:label>Rembrandt6:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt6:VidServ2-->
+<ndl:VideoServer rdf:about="http://rembrandt6.uva.netherlight.nl#Rembrandt6:VidServ2">
+	<rdfs:label>Rembrandt6:VidServ2</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt6:VidServ3-->
+<ndl:VideoServer rdf:about="http://rembrandt6.uva.netherlight.nl#Rembrandt6:VidServ3">
+	<rdfs:label>Rembrandt6:VidServ3</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt7:VidServ1-->
+<ndl:VideoServer rdf:about="http://rembrandt7.uva.netherlight.nl#Rembrandt7:VidServ1">
+	<rdfs:label>Rembrandt7:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt7:VidServ2-->
+<ndl:VideoServer rdf:about="http://rembrandt7.uva.netherlight.nl#Rembrandt7:VidServ2">
+	<rdfs:label>Rembrandt7:VidServ2</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+<!--Rembrandt8:VidServ1-->
+<ndl:VideoServer rdf:about="http://rembrandt5.uva.netherlight.nl#Rembrandt8:VidServ1">
+	<rdfs:label>Rembrandt8:VidServ1</rdfs:label>
+	<ndl:videoServerWaitInterval rdf:datatype="http://www.w3.org/2001/XMLSchema#float">20.6E-3</ndl:videoServerWaitInterval>
+	<ndl:videoServerPacketLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1344</ndl:videoServerPacketLength>
+	<ndl:videoServerContentLength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1316</ndl:videoServerContentLength>
+</ndl:VideoServer>
+
+
+<!--Rembrandt9:VidServerConnection1-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt9.uva.netherlight.nl#Rembrandt9:VidServerConnection1">
+	<rdfs:label>Rembrandt9:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<!--Rembrandt10:VidServerConnection1-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt10.uva.netherlight.nl#Rembrandt10:VidServerConnection1">
+	<rdfs:label>Rembrandt10:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt10:VidServerConnection2-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt10.uva.netherlight.nl#Rembrandt10:VidServerConnection2">
+	<rdfs:label>Rembrandt7:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt11:VidServerConnection1-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt11.uva.netherlight.nl#Rembrandt11:VidServerConnection1">
+	<rdfs:label>Rembrandt8:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt11:VidServerConnection2-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt11.uva.netherlight.nl#Rembrandt11:VidServerConnection2">
+	<rdfs:label>Rembrandt8:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt12:VidServerConnection1-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt12.uva.netherlight.nl#Rembrandt12:VidServerConnection1">
+	<rdfs:label>Rembrandt9:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt12:VidServerConnection2-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt12.uva.netherlight.nl#Rembrandt12:VidServerConnection2">
+	<rdfs:label>Rembrandt9:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt13:VidServerConnection1-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt13.uva.netherlight.nl#Rembrandt13:VidServerConnection1">
+	<rdfs:label>Rembrandt10:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt13:VidServerConnection2-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt13.uva.netherlight.nl#Rembrandt13:VidServerConnection2">
+	<rdfs:label>Rembrandt10:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt14:VidServerConnection1-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt14.uva.netherlight.nl#Rembrandt14:VidServerConnection1">
+	<rdfs:label>Rembrandt11:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt14:VidServerConnection2-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt14.uva.netherlight.nl#Rembrandt14:VidServerConnection2">
+	<rdfs:label>Rembrandt11:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt15:VidServerConnection1-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt15.uva.netherlight.nl#Rembrandt15:VidServerConnection1">
+	<rdfs:label>Rembrandt11:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt15:VidServerConnection2-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt15.uva.netherlight.nl#Rembrandt15:VidServerConnection2">
+	<rdfs:label>Rembrandt11:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt16:VidServerConnection1-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt16.uva.netherlight.nl#Rembrandt16:VidServerConnection1">
+	<rdfs:label>Rembrandt11:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt16:VidServerConnection2-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt16.uva.netherlight.nl#Rembrandt16:VidServerConnection2">
+	<rdfs:label>Rembrandt11:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:VidServ2"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+
+<!--Rembrandt17:VidServerConnection1-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt17.uva.netherlight.nl#Rembrandt17:VidServerConnection1">
+	<rdfs:label>Rembrandt11:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:VidServ2"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt17:VidServerConnection2-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt17.uva.netherlight.nl#Rembrandt17:VidServerConnection2">
+	<rdfs:label>Rembrandt11:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt18:VidServerConnection1-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt18.uva.netherlight.nl#Rembrandt18:VidServerConnection1">
+	<rdfs:label>Rembrandt11:VidServerConnection1</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt18:VidServerConnection2-->
+<ndl:VideoServerConnection rdf:about="http://rembrandt18.uva.netherlight.nl#Rembrandt18:VidServerConnection2">
+	<rdfs:label>Rembrandt11:VidServerConnection2</rdfs:label>
+	<ndl:applicationToServerConnection rdf:resource="http://rembrandt8.uva.netherlight.nl#Rembrandt8:VidServ1"/>
+	<ndl:maxDelay rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.01</ndl:maxDelay>
+</ndl:VideoServerConnection>
+
+<!--Rembrandt0:eth1-->
+<ndl:Interface rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt0:eth1">
+	<rdfs:label>Rembrandt0:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt1:eth1-->
+<ndl:Interface rdf:about="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth1">
+	<rdfs:label>Rembrandt1:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt2:eth1-->
+<ndl:Interface rdf:about="http://rembrandt2.uva.netherlight.nl#Rembrandt2:eth1">
+	<rdfs:label>Rembrandt2:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt3:eth1-->
+<ndl:Interface rdf:about="http://rembrandt3.uva.netherlight.nl#Rembrandt3:eth1">
+	<rdfs:label>Rembrandt3:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth4"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt4:eth1-->
+<ndl:Interface rdf:about="http://rembrandt4.uva.netherlight.nl#Rembrandt4:eth1">
+	<rdfs:label>Rembrandt4:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt5:eth1-->
+<ndl:Interface rdf:about="http://rembrandt5.uva.netherlight.nl#Rembrandt5:eth1">
+	<rdfs:label>Rembrandt5:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt21.uva.netherlight.nl#Rembrandt21:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt6:eth1-->
+<ndl:Interface rdf:about="http://rembrandt6.uva.netherlight.nl#Rembrandt6:eth1">
+	<rdfs:label>Rembrandt6:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt7:eth1-->
+<ndl:Interface rdf:about="http://rembrandt7.uva.netherlight.nl#Rembrandt7:eth1">
+	<rdfs:label>Rembrandt7:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt8:eth1-->
+<ndl:Interface rdf:about="http://rembrandt8.uva.netherlight.nl#Rembrandt8:eth1">
+	<rdfs:label>Rembrandt8:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt9:eth1-->
+<ndl:Interface rdf:about="http://rembrandt9.uva.netherlight.nl#Rembrandt9:eth1">
+	<rdfs:label>Rembrandt9:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt10:eth1-->
+<ndl:Interface rdf:about="http://rembrandt10.uva.netherlight.nl#Rembrandt10:eth1">
+	<rdfs:label>Rembrandt10:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt11:eth1-->
+<ndl:Interface rdf:about="http://rembrandt11.uva.netherlight.nl#Rembrandt11:eth1">
+	<rdfs:label>Rembrandt11:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+
+
+<!--Rembrandt12:eth1-->
+<ndl:Interface rdf:about="http://rembrandt12.uva.netherlight.nl#Rembrandt12:eth1">
+	<rdfs:label>Rembrandt12:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt23.uva.netherlight.nl#Rembrandt23:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt12:eth2-->
+<ndl:Interface rdf:about="http://rembrandt12.uva.netherlight.nl#Rembrandt12:eth2">
+	<rdfs:label>Rembrandt12:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt12:eth3-->
+<ndl:Interface rdf:about="http://rembrandt12.uva.netherlight.nl#Rembrandt12:eth3">
+	<rdfs:label>Rembrandt12:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt12:eth4-->
+<ndl:Interface rdf:about="http://rembrandt12.uva.netherlight.nl#Rembrandt12:eth4">
+	<rdfs:label>Rembrandt12:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt12:eth5-->
+<ndl:Interface rdf:about="http://rembrandt12.uva.netherlight.nl#Rembrandt12:eth5">
+	<rdfs:label>Rembrandt12:eth5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt13.uva.netherlight.nl#Rembrandt13:eth2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt12:eth6-->
+<ndl:Interface rdf:about="http://rembrandt12.uva.netherlight.nl#Rembrandt12:eth6">
+	<rdfs:label>Rembrandt12:eth6</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt18.uva.netherlight.nl#Rembrandt18:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt12:eth7-->
+<ndl:Interface rdf:about="http://rembrandt12.uva.netherlight.nl#Rembrandt12:eth7">
+	<rdfs:label>Rembrandt12:eth7</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt13:eth1-->
+<ndl:Interface rdf:about="http://rembrandt13.uva.netherlight.nl#Rembrandt13:eth1">
+	<rdfs:label>Rembrandt13:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt13:eth2-->
+<ndl:Interface rdf:about="http://rembrandt13.uva.netherlight.nl#Rembrandt13:eth2">
+	<rdfs:label>Rembrandt13:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt12.uva.netherlight.nl#Rembrandt12:eth5"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt13:eth3-->
+<ndl:Interface rdf:about="http://rembrandt13.uva.netherlight.nl#Rembrandt13:eth3">
+	<rdfs:label>Rembrandt13:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt14.uva.netherlight.nl#Rembrandt14:eth2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt14:eth1-->
+<ndl:Interface rdf:about="http://rembrandt14.uva.netherlight.nl#Rembrandt14:eth1">
+	<rdfs:label>Rembrandt14:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt14:eth2-->
+<ndl:Interface rdf:about="http://rembrandt14.uva.netherlight.nl#Rembrandt14:eth2">
+	<rdfs:label>Rembrandt14:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt13.uva.netherlight.nl#Rembrandt13:eth3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt14:eth3-->
+<ndl:Interface rdf:about="http://rembrandt14.uva.netherlight.nl#Rembrandt14:eth3">
+	<rdfs:label>Rembrandt14:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt18.uva.netherlight.nl#Rembrandt18:eth2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt14:eth4-->
+<ndl:Interface rdf:about="http://rembrandt14.uva.netherlight.nl#Rembrandt14:eth4">
+	<rdfs:label>Rembrandt14:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt15.uva.netherlight.nl#Rembrandt15:eth4"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt15:eth1-->
+<ndl:Interface rdf:about="http://rembrandt15.uva.netherlight.nl#Rembrandt15:eth1">
+	<rdfs:label>Rembrandt15:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt10.uva.netherlight.nl#Rembrandt10:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt15:eth2-->
+<ndl:Interface rdf:about="http://rembrandt15.uva.netherlight.nl#Rembrandt15:eth2">
+	<rdfs:label>Rembrandt15:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt11.uva.netherlight.nl#Rembrandt11:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt15:eth3-->
+<ndl:Interface rdf:about="http://rembrandt15.uva.netherlight.nl#Rembrandt15:eth3">
+	<rdfs:label>Rembrandt15:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt16.uva.netherlight.nl#Rembrandt16:eth6"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt15:eth4-->
+<ndl:Interface rdf:about="http://rembrandt15.uva.netherlight.nl#Rembrandt15:eth4">
+	<rdfs:label>Rembrandt15:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt14.uva.netherlight.nl#Rembrandt14:eth4"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt16:eth1-->
+<ndl:Interface rdf:about="http://rembrandt16.uva.netherlight.nl#Rembrandt16:eth1">
+	<rdfs:label>Rembrandt16:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt16:eth2-->
+<ndl:Interface rdf:about="http://rembrandt16.uva.netherlight.nl#Rembrandt16:eth2">
+	<rdfs:label>Rembrandt16:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt8.uva.netherlight.nl#Rembrandt8:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt16:eth3-->
+<ndl:Interface rdf:about="http://rembrandt16.uva.netherlight.nl#Rembrandt16:eth3">
+	<rdfs:label>Rembrandt16:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt9.uva.netherlight.nl#Rembrandt9:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt16:eth4-->
+<ndl:Interface rdf:about="http://rembrandt16.uva.netherlight.nl#Rembrandt16:eth4">
+	<rdfs:label>Rembrandt16:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt17.uva.netherlight.nl#Rembrandt17:eth4"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt16:eth5-->
+<ndl:Interface rdf:about="http://rembrandt16.uva.netherlight.nl#Rembrandt16:eth5">
+	<rdfs:label>Rembrandt16:eth5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth4"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt16:eth6-->
+<ndl:Interface rdf:about="http://rembrandt16.uva.netherlight.nl#Rembrandt16:eth6">
+	<rdfs:label>Rembrandt16:eth6</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt15.uva.netherlight.nl#Rembrandt15:eth3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt17:eth1-->
+<ndl:Interface rdf:about="http://rembrandt17.uva.netherlight.nl#Rembrandt17:eth1">
+	<rdfs:label>Rembrandt17:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt17:eth2-->
+<ndl:Interface rdf:about="http://rembrandt17.uva.netherlight.nl#Rembrandt17:eth2">
+	<rdfs:label>Rembrandt17:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt18.uva.netherlight.nl#Rembrandt18:eth3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt17:eth3-->
+<ndl:Interface rdf:about="http://rembrandt17.uva.netherlight.nl#Rembrandt17:eth3">
+	<rdfs:label>Rembrandt17:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt17:eth4-->
+<ndl:Interface rdf:about="http://rembrandt17.uva.netherlight.nl#Rembrandt17:eth4">
+	<rdfs:label>Rembrandt17:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt16.uva.netherlight.nl#Rembrandt16:eth4"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt18:eth1-->
+<ndl:Interface rdf:about="http://rembrandt18.uva.netherlight.nl#Rembrandt18:eth1">
+	<rdfs:label>Rembrandt18:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt12.uva.netherlight.nl#Rembrandt12:eth6"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt18:eth2-->
+<ndl:Interface rdf:about="http://rembrandt18.uva.netherlight.nl#Rembrandt18:eth2">
+	<rdfs:label>Rembrandt18:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt24.uva.netherlight.nl#Rembrandt24:eth3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt18:eth3-->
+<ndl:Interface rdf:about="http://rembrandt18.uva.netherlight.nl#Rembrandt18:eth3">
+	<rdfs:label>Rembrandt18:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt25.uva.netherlight.nl#Rembrandt25:eth2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt18:eth4-->
+<ndl:Interface rdf:about="http://rembrandt18.uva.netherlight.nl#Rembrandt18:eth4">
+	<rdfs:label>Rembrandt18:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt19:eth1-->
+<ndl:Interface rdf:about="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth1">
+	<rdfs:label>Rembrandt19:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt26.uva.netherlight.nl#Rembrandt26:eth3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt19:eth2-->
+<ndl:Interface rdf:about="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth2">
+	<rdfs:label>Rembrandt19:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt27.uva.netherlight.nl#Rembrandt27:eth3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt20:eth1-->
+<ndl:Interface rdf:about="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth1">
+	<rdfs:label>Rembrandt20:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt22.uva.netherlight.nl#Rembrandt22:eth7"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt20:eth2-->
+<ndl:Interface rdf:about="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth2">
+	<rdfs:label>Rembrandt20:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt28.uva.netherlight.nl#Rembrandt28:eth4"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt20:eth3-->
+<ndl:Interface rdf:about="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth3">
+	<rdfs:label>Rembrandt20:eth3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt19.uva.netherlight.nl#Rembrandt19:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+<!--Rembrandt20:eth4-->
+<ndl:Interface rdf:about="http://rembrandt20.uva.netherlight.nl#Rembrandt20:eth4">
+	<rdfs:label>Rembrandt20:eth4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt29.uva.netherlight.nl#Rembrandt29:eth5"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10E6</ndl:capacity>
+	<ndl:latency rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2E-6</ndl:latency>
+</ndl:Interface>
+
+</rdf:RDF>

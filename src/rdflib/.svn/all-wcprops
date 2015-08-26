@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib
+END
+graph$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/graph$py.class
+END
+namespace.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/namespace.py
+END
+plugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugin.py
+END
+query$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/query$py.class
+END
+parser.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/parser.pyc
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/__init__.py
+END
+store.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/store.pyc
+END
+__init__.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/__init__.pyc
+END
+t.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/t.py
+END
+events.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/events.py
+END
+term.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/term.py
+END
+serializer.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/serializer.py
+END
+term.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/term.pyc
+END
+exceptions$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/exceptions$py.class
+END
+serializer.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/serializer.pyc
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/util.py
+END
+compare$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/compare$py.class
+END
+util.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/util.pyc
+END
+namespace$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/namespace$py.class
+END
+plugin$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugin$py.class
+END
+__init__$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/__init__$py.class
+END
+collection.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/collection.py
+END
+parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/parser.py
+END
+store.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/store.py
+END
+t$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/t$py.class
+END
+events$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/events$py.class
+END
+namespace.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/namespace.pyc
+END
+plugin.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugin.pyc
+END
+graph.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/graph.py
+END
+term$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/term$py.class
+END
+serializer$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/serializer$py.class
+END
+graph.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/graph.pyc
+END
+query.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/query.py
+END
+events.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/events.pyc
+END
+util$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/util$py.class
+END
+query.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/query.pyc
+END
+exceptions.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/exceptions.py
+END
+exceptions.pyc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/exceptions.pyc
+END
+collection$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/collection$py.class
+END
+parser$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/parser$py.class
+END
+compare.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/compare.py
+END
+store$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/store$py.class
+END

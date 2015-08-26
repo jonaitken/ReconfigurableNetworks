@@ -1,0 +1,13 @@
+Basic Info:
+Number of Devices: 21
+Number of Connection Ports: 282
+Number sinks: 1
+Number sources: 1
+Number routers: 19
+Number connections: 60
+Total Software Pair Connections: 1
+
+Devices: [http://nodes8.domain.ac.uk#nodes8, http://nodes14.domain.ac.uk#nodes14, http://nodes9.domain.ac.uk#nodes9, http://nodes16.domain.ac.uk#nodes16, http://nodes4.domain.ac.uk#nodes4, http://nodes10.domain.ac.uk#nodes10, http://nodes18.domain.ac.uk#nodes18, http://nodes5.domain.ac.uk#nodes5, http://nodes13.domain.ac.uk#nodes13, http://nodes7.domain.ac.uk#nodes7, http://nodes0.domain.ac.uk#nodes0, http://nodes2.domain.ac.uk#nodes2, http://nodes12.domain.ac.uk#nodes12, http://nodes6.domain.ac.uk#nodes6, http://nodes20.domain.ac.uk#nodes20, http://nodes15.domain.ac.uk#nodes15, http://nodes11.domain.ac.uk#nodes11, http://nodes19.domain.ac.uk#nodes19, http://nodes17.domain.ac.uk#nodes17, http://nodes3.domain.ac.uk#nodes3, http://nodes1.domain.ac.uk#nodes1]
+Sinks: [http://nodes2.domain.ac.uk#nodes2]
+Sources: [http://nodes1.domain.ac.uk#nodes1]
+Connections: [['http://nodes2.domain.ac.uk#nodes2:VidServerConnection1', 'http://nodes1.domain.ac.uk#nodes1:VidServ1']]

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NDL_NC/!svn/ver/73/trunk/jythonParser/src/networkcalculus
+END
+NetworkCalculusManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NDL_NC/!svn/ver/73/trunk/jythonParser/src/networkcalculus/NetworkCalculusManager.java
+END
+EdgeProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/7/trunk/jythonParser/src/networkcalculus/EdgeProperties.java
+END
+DependabilityAssessment.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NDL_NC/!svn/ver/27/trunk/jythonParser/src/networkcalculus/DependabilityAssessment.java
+END
+CalculusData.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NDL_NC/!svn/ver/3/trunk/jythonParser/src/networkcalculus/CalculusData.java
+END
+DeviceInterfaceInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/networkcalculus/DeviceInterfaceInformation.java
+END
+ConnectionsInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NDL_NC/!svn/ver/27/trunk/jythonParser/src/networkcalculus/ConnectionsInformation.java
+END
+Network.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NDL_NC/!svn/ver/72/trunk/jythonParser/src/networkcalculus/Network.java
+END
+VertexProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/NDL_NC/!svn/ver/7/trunk/jythonParser/src/networkcalculus/VertexProperties.java
+END

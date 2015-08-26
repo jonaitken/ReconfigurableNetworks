@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/star
+END
+coevolve1.master.params
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/star/coevolve1.master.params
+END
+coevolve2.slave.params
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/star/coevolve2.slave.params
+END
+coevolve2.master.params
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/star/coevolve2.master.params
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/star/README
+END
+ant.slave.params
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/star/ant.slave.params
+END
+ant.master.params
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/star/ant.master.params
+END
+coevolve1.slave.params
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/star/coevolve1.slave.params
+END

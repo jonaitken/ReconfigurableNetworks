@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/coevolve2
+END
+ecsuite.params
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/coevolve2/ecsuite.params
+END
+CoevolutionaryECSuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/coevolve2/CoevolutionaryECSuite.java
+END
+coevolve2.params
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/coevolve2/coevolve2.params
+END
+CoevolutionaryECSuite.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/coevolve2/CoevolutionaryECSuite.class
+END
+CoevolutionaryDoubleVectorIndividual.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/coevolve2/CoevolutionaryDoubleVectorIndividual.java
+END
+CoevolutionaryRosenbrock.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/coevolve2/CoevolutionaryRosenbrock.java
+END
+CoevolutionaryDoubleVectorIndividual.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/coevolve2/CoevolutionaryDoubleVectorIndividual.class
+END
+CoevolutionaryRosenbrock.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/coevolve2/CoevolutionaryRosenbrock.class
+END

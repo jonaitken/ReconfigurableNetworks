@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/sat
+END
+data-215.cnf
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/sat/data-215.cnf
+END
+SAT.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/sat/SAT.java
+END
+sat.params
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/sat/sat.params
+END
+SAT.class
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/sat/SAT.class
+END
+SAT$Clause.class
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/app/sat/SAT$Clause.class
+END
+data-10.cnf
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/sat/data-10.cnf
+END
+data-1000.cnf
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/sat/data-1000.cnf
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/app/sat/README
+END

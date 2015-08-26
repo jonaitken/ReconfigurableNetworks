@@ -1,0 +1,26 @@
+<rdfs:Class rdf:ID="hasTVideoServerSegment"/>
+<rdfs:Class rdf:ID="hasTVideoServerFinalSegment">
+<rdfs:subClassOf rdf:resource="#hasTVideoServerSegment"/>
+</rdfs:Class>
+<rdf:Property rdf:ID="hasTVideoServer_sequence">
+<rdfs:range rdf:resource="#hasTVideoServerSegment"/>
+</rdf:Property>
+<rdf:Property rdf:ID="next_segment">
+<rdfs:range rdf:resource="#hasTVideoServerSegment"/>
+<rdfs:domain rdf:resource="#hasTVideoServerSegment"/>
+</rdf:Property>
+
+<ndl:hasTVideoServer rdf:ID="rembrandt11Cons">
+	<hasTVideoServer_sequence rdf:resource="rembrand11Cons1"/>
+</ndl:hasTVideoServer>
+<hasTVideoServerSegment rdf:ID="rembrand11Cons1">
+	<rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4"/>
+	<next_segment>
+		<hasTVideoServerFinalSegment rdf:ID="rembrand11Cons2">
+		<rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5"/>
+		</hasTVideoServerFinalSegment>
+	</next_segment>
+</hasTVideoServerSegment>
+
+
+	

@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select
+END
+MultiSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/MultiSelection.java
+END
+FitProportionateSelection.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/FitProportionateSelection.class
+END
+TournamentSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/TournamentSelection.java
+END
+BestSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/BestSelection.java
+END
+SUSSelection.class
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/SUSSelection.class
+END
+GreedyOverselection.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/GreedyOverselection.class
+END
+SelectDefaults.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/select/SelectDefaults.java
+END
+SigmaScalingSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/select/SigmaScalingSelection.java
+END
+RandomSelection.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/RandomSelection.class
+END
+BoltzmannSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/select/BoltzmannSelection.java
+END
+BestSelection$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/BestSelection$1.class
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/select/README
+END
+FitProportionateSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/FitProportionateSelection.java
+END
+SUSSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/select/SUSSelection.java
+END
+GreedyOverselection.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/GreedyOverselection.java
+END
+FirstSelection.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/FirstSelection.class
+END
+MultiSelection.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/MultiSelection.class
+END
+RandomSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/RandomSelection.java
+END
+TournamentSelection.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/TournamentSelection.class
+END
+BestSelection.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/BestSelection.class
+END
+GreedyOverselection$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/GreedyOverselection$1.class
+END
+SelectDefaults.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/SelectDefaults.class
+END
+SigmaScalingSelection.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/SigmaScalingSelection.class
+END
+FirstSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/NDL_NC/!svn/ver/9/trunk/jythonParser/src/ec/select/FirstSelection.java
+END
+BoltzmannSelection.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/NDL_NC/!svn/ver/64/trunk/jythonParser/src/ec/select/BoltzmannSelection.class
+END

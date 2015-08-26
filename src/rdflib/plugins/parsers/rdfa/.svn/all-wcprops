@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa
+END
+__init__$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/__init__$py.class
+END
+parse.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/parse.py
+END
+state$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/state$py.class
+END
+options.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/options.py
+END
+literal.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/literal.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/__init__.py
+END
+embeddedrdf$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/embeddedrdf$py.class
+END
+state.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/state.py
+END
+parse$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/parse$py.class
+END
+embeddedrdf.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/embeddedrdf.py
+END
+options$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/options$py.class
+END
+literal$py.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/NDL_NC/!svn/ver/2/trunk/jythonParser/src/rdflib/plugins/parsers/rdfa/literal$py.class
+END

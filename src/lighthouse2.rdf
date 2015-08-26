@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:ndl="http://www.science.uva.nl/research/sne/ndl#"
+xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+xmlns:vc="http://www.w3.org/2001/vcard-rdf/3.0#"
+xml:base="http://trafficlight.uva.netherlight.nl/ndl/files/lighthouse.rdf">
+
+
+<!-- Description of LightHouse -->
+<ndl:Location rdf:about="http://www.uva.netherlight.nl#LightHouse">
+	<rdfs:label xml:lang="en">Lighthouse UvA/SARA lab</rdfs:label>
+	<!-- rdfs:label is the same as ndl:name -->
+	<vc:ADR rdf:parseType="Resource">
+		<vc:Street>Kruislaan 403</vc:Street>
+		<vc:Locality>Amsterdam</vc:Locality>
+		<vc:Country>Netherlands</vc:Country>
+	</vc:ADR>
+	<geo:lat>4.95262</geo:lat>
+	<geo:long>52.35623</geo:long>
+</ndl:Location>
+
+<!-- Description of NetherLight -->
+<ndl:Location rdf:about="http://noc.netherlight.net/netherlight.rdf#NetherLight">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+	<rdfs:label xml:lang="en">NetherLight</rdfs:label>
+	<geo:lat>4.95279</geo:lat>
+	<geo:long>52.35605</geo:long>
+</ndl:Location>
+
+<!-- Description of NIKHEF-serverroom -->
+<ndl:Location rdf:about="http://www.nikhef.nl#NIKHEF-serverroom">
+	<rdfs:label xml:lang="en">NIKHEF serverroom</rdfs:label>
+	<geo:lat>4.95127</geo:lat>
+	<geo:long>52.35617</geo:long>
+</ndl:Location>
+
+<!-- Description of UvA-serverroom -->
+<ndl:Location rdf:about="http://www.science.uva.nl#UvA-serverroom">
+	<rdfs:label xml:lang="en">UvA serverroom F-building</rdfs:label>
+	<geo:lat>4.95028</geo:lat>
+	<geo:long>52.35538</geo:long>
+</ndl:Location>
+
+<!-- Description of StarLight -->
+<ndl:Location rdf:about="http://www.startap.net/#StarLight">
+	<rdfs:label xml:lang="en">StarLight</rdfs:label>
+	<!-- rdfs:seeAlso rdf:resource="http://www.startap.net/starlight/network.rdf"/ -->
+</ndl:Location>
+
+
+
+<!--Rembrandt cluster-->
+<!--Since there is no "cluster" class yet, we simply use "Bag"-->
+<rdf:Bag rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt">
+	<rdf:li rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0"/>
+	<rdf:li rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1"/>
+	<rdf:li rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2"/>
+	<rdf:li rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3"/>
+	<rdf:li rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4"/>
+	<rdf:li rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5"/>
+	<rdf:li rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6"/>
+	<rdf:li rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7"/>
+	<rdf:li rdf:resource="http://rembrandt8.uva.netherlight.nl#Rembrandt8"/>
+</rdf:Bag>
+
+<!--Rembrandt0-->
+<ndl:Device rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt0">
+	<rdfs:label>Rembrandt0</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0:eth1"/>
+</ndl:Device>
+
+<!--Rembrandt1-->
+<ndl:Device rdf:about="http://rembrandt1.uva.netherlight.nl#Rembrandt1">
+	<rdfs:label>Rembrandt1</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth2"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth3"/>
+</ndl:Device>
+
+<!--Rembrandt2-->
+<ndl:Device rdf:about="http://rembrandt2.uva.netherlight.nl#Rembrandt2">
+	<rdfs:label>Rembrandt2</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2:eth1"/>
+</ndl:Device>
+
+<!--Rembrandt3-->
+<ndl:Device rdf:about="http://rembrandt3.uva.netherlight.nl#Rembrandt3">
+	<rdfs:label>Rembrandt3</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3:eth1"/>
+</ndl:Device>
+
+<!--Rembrandt0:eth1-->
+<ndl:Interface rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt0:eth1">
+	<rdfs:label>Rembrandt0:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt1:eth1-->
+<ndl:Interface rdf:about="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth1">
+	<rdfs:label>Rembrandt1:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt1:eth2-->
+<ndl:Interface rdf:about="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth2">
+	<rdfs:label>Rembrandt1:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt2:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt1:eth3-->
+<ndl:Interface rdf:about="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth3">
+	<rdfs:label>Rembrandt1:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt3:eth1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt2:eth1-->
+<ndl:Interface rdf:about="http://rembrandt2.uva.netherlight.nl#Rembrandt2:eth1">
+	<rdfs:label>Rembrandt2:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt3:eth1-->
+<ndl:Interface rdf:about="http://rembrandt3.uva.netherlight.nl#Rembrandt3:eth1">
+	<rdfs:label>Rembrandt3:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+</rdf:RDF>

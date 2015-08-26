@@ -1,0 +1,2458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:ndl="http://www.science.uva.nl/research/sne/ndl#"
+xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+xmlns:vc="http://www.w3.org/2001/vcard-rdf/3.0#"
+xml:base="http://trafficlight.uva.netherlight.nl/ndl/files/lighthouse.rdf">
+
+
+<!-- Description of LightHouse -->
+<ndl:Location rdf:about="http://www.uva.netherlight.nl#LightHouse">
+	<rdfs:label xml:lang="en">Lighthouse UvA/SARA lab</rdfs:label>
+	<!-- rdfs:label is the same as ndl:name -->
+	<vc:ADR rdf:parseType="Resource">
+		<vc:Street>Kruislaan 403</vc:Street>
+		<vc:Locality>Amsterdam</vc:Locality>
+		<vc:Country>Netherlands</vc:Country>
+	</vc:ADR>
+	<geo:lat>4.95262</geo:lat>
+	<geo:long>52.35623</geo:long>
+</ndl:Location>
+
+<!-- Description of NetherLight -->
+<ndl:Location rdf:about="http://noc.netherlight.net/netherlight.rdf#NetherLight">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+	<rdfs:label xml:lang="en">NetherLight</rdfs:label>
+	<geo:lat>4.95279</geo:lat>
+	<geo:long>52.35605</geo:long>
+</ndl:Location>
+
+<!-- Description of NIKHEF-serverroom -->
+<ndl:Location rdf:about="http://www.nikhef.nl#NIKHEF-serverroom">
+	<rdfs:label xml:lang="en">NIKHEF serverroom</rdfs:label>
+	<geo:lat>4.95127</geo:lat>
+	<geo:long>52.35617</geo:long>
+</ndl:Location>
+
+<!-- Description of UvA-serverroom -->
+<ndl:Location rdf:about="http://www.science.uva.nl#UvA-serverroom">
+	<rdfs:label xml:lang="en">UvA serverroom F-building</rdfs:label>
+	<geo:lat>4.95028</geo:lat>
+	<geo:long>52.35538</geo:long>
+</ndl:Location>
+
+<!-- Description of StarLight -->
+<ndl:Location rdf:about="http://www.startap.net/#StarLight">
+	<rdfs:label xml:lang="en">StarLight</rdfs:label>
+	<!-- rdfs:seeAlso rdf:resource="http://www.startap.net/starlight/network.rdf"/ -->
+</ndl:Location>
+
+
+
+<!--Rembrandt cluster-->
+<!--Since there is no "cluster" class yet, we simply use "Bag"-->
+<rdf:Bag rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt">
+	<rdf:li rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0"/>
+	<rdf:li rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1"/>
+	<rdf:li rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2"/>
+	<rdf:li rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3"/>
+	<rdf:li rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4"/>
+	<rdf:li rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5"/>
+	<rdf:li rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6"/>
+	<rdf:li rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7"/>
+	<rdf:li rdf:resource="http://rembrandt8.uva.netherlight.nl#Rembrandt8"/>
+</rdf:Bag>
+
+<!--Rembrandt0-->
+<ndl:Device rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt0">
+	<rdfs:label>Rembrandt0</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0:eth2"/>
+</ndl:Device>
+
+<!--Rembrandt1-->
+<ndl:Device rdf:about="http://rembrandt1.uva.netherlight.nl#Rembrandt1">
+	<rdfs:label>Rembrandt1</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth2"/>
+</ndl:Device>
+
+<!--Rembrandt2-->
+<ndl:Device rdf:about="http://rembrandt2.uva.netherlight.nl#Rembrandt2">
+	<rdfs:label>Rembrandt2</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2:eth2"/>
+</ndl:Device>
+
+<!--Rembrandt3-->
+<ndl:Device rdf:about="http://rembrandt3.uva.netherlight.nl#Rembrandt3">
+	<rdfs:label>Rembrandt3</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3:eth2"/>
+</ndl:Device>
+
+<!--Rembrandt4-->
+<ndl:Device rdf:about="http://rembrandt4.uva.netherlight.nl#Rembrandt4">
+	<rdfs:label>Rembrandt4</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4:eth2"/>
+</ndl:Device>
+
+<!--Rembrandt5-->
+<ndl:Device rdf:about="http://rembrandt5.uva.netherlight.nl#Rembrandt5">
+	<rdfs:label>Rembrandt5</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5:eth2"/>
+</ndl:Device>
+
+<!--Rembrandt6-->
+<ndl:Device rdf:about="http://rembrandt6.uva.netherlight.nl#Rembrandt6">
+	<rdfs:label>Rembrandt6</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:eth2"/>
+</ndl:Device>
+
+<!--Rembrandt7-->
+<ndl:Device rdf:about="http://rembrandt7.uva.netherlight.nl#Rembrandt7">
+	<rdfs:label>Rembrandt7</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7:eth2"/>
+</ndl:Device>
+
+<!--Rembrandt8-->
+<ndl:Device rdf:about="http://rembrandt8.uva.netherlight.nl#Rembrandt8">
+	<rdfs:label>Rembrandt8</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt8.uva.netherlight.nl#Rembrandt8:eth1"/>
+	<ndl:hasInterface rdf:resource="http://rembrandt8.uva.netherlight.nl#Rembrandt8:eth2"/>
+</ndl:Device>
+
+<!--VanGogh cluster-->
+<!--Since there is no "cluster" class yet, we simply use "Bag"-->
+<rdf:Bag rdf:about="http://vangogh0.uva.netherlight.nl#VanGogh">
+	<rdf:li rdf:resource="http://vangogh0.uva.netherlight.nl#VanGogh0"/>
+	<rdf:li rdf:resource="http://vangogh1.uva.netherlight.nl#VanGogh1"/>
+	<rdf:li rdf:resource="http://vangogh2.uva.netherlight.nl#VanGogh2"/>
+	<rdf:li rdf:resource="http://vangogh3.uva.netherlight.nl#VanGogh3"/>
+	<rdf:li rdf:resource="http://vangogh4.uva.netherlight.nl#VanGogh4"/>
+	<rdf:li rdf:resource="http://vangogh5.uva.netherlight.nl#VanGogh5"/>
+	<rdf:li rdf:resource="http://vangogh6.uva.netherlight.nl#VanGogh6"/>
+	<rdf:li rdf:resource="http://vangogh7.uva.netherlight.nl#VanGogh7"/>
+	<rdf:li rdf:resource="http://vangogh8.uva.netherlight.nl#VanGogh8"/>
+</rdf:Bag>
+
+<!--VanGogh0-->
+<ndl:Device rdf:about="http://vangogh0.uva.netherlight.nl#VanGogh0">
+	<rdfs:label>VanGogh0</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://vangogh0.uva.netherlight.nl#VanGogh0:eth2"/>
+</ndl:Device>
+
+<!--VanGogh1-->
+<ndl:Device rdf:about="http://vangogh1.uva.netherlight.nl#VanGogh1">
+	<rdfs:label>VanGogh1</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://vangogh1.uva.netherlight.nl#VanGogh1:eth2"/>
+</ndl:Device>
+
+<!--VanGogh2-->
+<ndl:Device rdf:about="http://vangogh2.uva.netherlight.nl#VanGogh2">
+	<rdfs:label>VanGogh2</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://vangogh2.uva.netherlight.nl#VanGogh2:eth2"/>
+</ndl:Device>
+
+<!--VanGogh3-->
+<ndl:Device rdf:about="http://vangogh3.uva.netherlight.nl#VanGogh3">
+	<rdfs:label>VanGogh3</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://vangogh3.uva.netherlight.nl#VanGogh3:eth2"/>
+</ndl:Device>
+
+<!--VanGogh4-->
+<ndl:Device rdf:about="http://vangogh4.uva.netherlight.nl#VanGogh4">
+	<rdfs:label>VanGogh4</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://vangogh4.uva.netherlight.nl#VanGogh4:eth2"/>
+</ndl:Device>
+
+<!--VanGogh5-->
+<ndl:Device rdf:about="http://vangogh5.uva.netherlight.nl#VanGogh5">
+	<rdfs:label>VanGogh5</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://vangogh5.uva.netherlight.nl#VanGogh5:eth2"/>
+</ndl:Device>
+
+<!--VanGogh6-->
+<ndl:Device rdf:about="http://vangogh6.uva.netherlight.nl#VanGogh6">
+	<rdfs:label>VanGogh6</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://vangogh6.uva.netherlight.nl#VanGogh6:eth2"/>
+</ndl:Device>
+
+<!--VanGogh7-->
+<ndl:Device rdf:about="http://vangogh7.uva.netherlight.nl#VanGogh7">
+	<rdfs:label>VanGogh7</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://vangogh7.uva.netherlight.nl#VanGogh7:eth2"/>
+</ndl:Device>
+
+<!--VanGogh8-->
+<ndl:Device rdf:about="http://vangogh8.uva.netherlight.nl#VanGogh8">
+	<rdfs:label>VanGogh8</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://vangogh8.uva.netherlight.nl#VanGogh8:eth2"/>
+</ndl:Device>
+
+
+
+<!--Theo-->
+<ndl:Device rdf:about="http://theo.uva.netherlight.nl#Theo">
+	<rdfs:label>Theo HP Itanium</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://theo.uva.netherlight.nl#Theo:eth0"/>
+</ndl:Device>
+
+<!--Onno-->
+<ndl:Device rdf:about="http://onno.uva.netherlight.nl#Onno">
+	<rdfs:label>Onno HP Itanium</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.startap.net/#StarLight"/>
+	<ndl:hasInterface rdf:resource="http://onno.uva.netherlight.nl#Onno:eth0"/>
+</ndl:Device>
+
+
+<!--Force10-->
+<ndl:Device rdf:about="http://force10.uva.netherlight.nl#Force10">
+	<rdfs:label>Force10 switch</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:3/0"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:3/1"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:4/0"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:4/1"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/0"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/1"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/2"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/3"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/4"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/5"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/6"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/7"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/8"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/9"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/10"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/11"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/12"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/13"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/14"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/15"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/16"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/17"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/18"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/19"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/20"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/21"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/22"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:5/23"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:6/0"/>
+	<ndl:hasInterface rdf:resource="http://force10.uva.netherlight.nl#Force10:6/1"/>
+</ndl:Device>
+
+<!--Houdini-->
+<ndl:Device rdf:about="http://houdini.uva.netherlight.nl#Houdini">
+	<rdfs:label>Houdini Nortel switch</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:2/1"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:2/2"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:2/3"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:3/1"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:3/2"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:3/3"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:4/1"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:4/2"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:4/3"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:7/1"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:7/2"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:7/3"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:8/1"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:8/2"/>
+	<ndl:hasInterface rdf:resource="http://houdini.uva.netherlight.nl#Houdini:8/3"/>
+</ndl:Device>
+
+<!--Speculaas-->
+<ndl:Device rdf:about="http://speculaas.uva.netherlight.nl#Speculaas">
+	<rdfs:label>Speculaas Glimmerglass OXC</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:1"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:2"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:3"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:4"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:5"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:6"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:7"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:8"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:9"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:10"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:11"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:12"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:13"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:14"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:15"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:16"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:17"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:18"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:19"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:20"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:21"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:22"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:23"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:24"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:25"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:26"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:27"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:28"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:29"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:30"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:31"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:32"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:33"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:34"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:35"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:36"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:37"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:38"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:39"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:40"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:41"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:42"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:43"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:44"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:45"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:46"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:47"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:48"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:49"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:50"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:51"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:52"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:53"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:54"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:55"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:56"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:57"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:58"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:59"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:60"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:61"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:62"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:63"/>
+	<ndl:hasInterface rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:64"/>
+</ndl:Device>
+
+<!--BeautyCees-->
+<ndl:Device rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees">
+	<rdfs:label>BeautyCees Calient OXC</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.8"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.1"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.2"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.3"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.4"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.5"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.6"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.7"/>
+	<ndl:hasInterface rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.8"/>
+</ndl:Device>
+
+<!--Intel IDXP2810-->
+<ndl:Device rdf:about="http://npu.uva.netherlight.nl#IDXP2810">
+	<rdfs:label>Intel IDXP2810 NPU</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.uva.netherlight.nl#LightHouse"/>
+	<ndl:hasInterface rdf:resource="http://npu.uva.netherlight.nl#IDXP2810:1"/>
+	<ndl:hasInterface rdf:resource="http://npu.uva.netherlight.nl#IDXP2810:2"/>
+	<ndl:hasInterface rdf:resource="http://npu.uva.netherlight.nl#IDXP2810:3"/>
+	<ndl:hasInterface rdf:resource="http://npu.uva.netherlight.nl#IDXP2810:4"/>
+</ndl:Device>
+
+<!--Raptor-->
+<ndl:Device rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor">
+	<rdfs:label>Raptor VLSR switch</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/1"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/2"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/3"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/4"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/5"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/6"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/7"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/8"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/9"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/10"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/11"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/12"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/2/1"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/2/2"/>
+	<ndl:hasInterface rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/2/3"/>
+</ndl:Device>
+
+<!--Netgear-->
+<ndl:Device rdf:about="http://www.nikhef.nl#Netgear">
+	<rdfs:label>Netgear stackable switch</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://www.nikhef.nl#NIKHEF-serverroom"/>
+	<ndl:hasInterface rdf:resource="http://www.nikhef.nl#Netgear:45"/>
+	<ndl:hasInterface rdf:resource="http://www.nikhef.nl#Netgear:47"/>
+</ndl:Device>
+
+<!--Lala Nortel 5530 switch #1-->
+<ndl:Device rdf:about="http://lala.uva.netherlight.nl#Lala">
+	<rdfs:label>Lala Nortel 5530 switch</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+	<ndl:hasInterface rdf:resource="http://lala.uva.netherlight.nl#Lala:24"/>
+</ndl:Device>
+
+<!--Pooh Nortel 5530 switch #2-->
+<!--Name used to be for one of the loaned Raptor switches. Now reused-->
+<!--
+<ndl:Device rdf:about="http://pooh.uva.netherlight.nl#Pooh">
+	<rdfs:label>Pooh Nortel 5530 switch</rdfs:label>
+	<ndl:locatedAt rdf:resource="http://noc.netherlight.net/netherlight.rdf#NetherLight"/>
+</ndl:Device>
+-->
+
+<!--Dinky D-Link switch #1-->
+<!--
+<ndl:Device rdf:about="http://dinky.uva.netherlight.nl#Dinky">
+	<rdfs:label>Dinky D-Link switch</rdfs:label>
+</ndl:Device>
+-->
+
+<!--Winky D-Link switch #1-->
+<!--
+<ndl:Device rdf:about="http://winky.uva.netherlight.nl#Winky">
+	<rdfs:label>Winky D-Link switch</rdfs:label>
+</ndl:Device>
+-->
+
+
+
+<!--SW1-6509-->
+<ndl:Device rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net">
+	<rdfs:label>sw1.amsterdam1.netherlight.net 6509</rdfs:label>
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:1/9"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:1/10"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:1/11"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:2/9"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:2/13"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/7"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/8"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/12"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/13"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/14"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/15"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/16"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:Te6/3"/>
+</ndl:Device>
+
+<!--TDM1-15454-->
+<ndl:Device rdf:about="http://noc.netherlight.net/netherlight.rdf#tdm1.amsterdam1.netherlight.net">
+	<rdfs:label>tdm1.amsterdam1.netherlight.net 15454</rdfs:label>
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/netherlight.rdf#tdm1.amsterdam1.netherlight.net:1.1"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/netherlight.rdf#tdm1.amsterdam1.netherlight.net:1.2"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/netherlight.rdf#tdm1.amsterdam1.netherlight.net:2.1"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/netherlight.rdf#tdm1.amsterdam1.netherlight.net:2.2"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/netherlight.rdf#tdm1.amsterdam1.netherlight.net:15.4"/>
+</ndl:Device>
+
+<!--TDM3-HDXc-->
+<ndl:Device rdf:about="http://noc.netherlight.net/netherlight.rdf#tdm3.amsterdam1.netherlight.net">
+	<rdfs:label>tdm3.amsterdam1.netherlight.net HDXc</rdfs:label>
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/netherlight.rdf#tdm3.amsterdam1.netherlight.net:501/4"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/netherlight.rdf#tdm3.amsterdam1.netherlight.net:504/3"/>
+	<ndl:hasInterface rdf:resource="http://noc.netherlight.net/netherlight.rdf#tdm3.amsterdam1.netherlight.net:508/1/5"/>
+</ndl:Device>
+
+<!--ONYX-->
+<ndl:Device rdf:about="http://www.sara.nl#ONYX">
+	<rdfs:label>ONYX</rdfs:label>
+	<!-- rdfs:seeAlso rdf:resource="http://www.sara.nl/sara.rdf"/ -->
+	<ndl:hasInterface rdf:resource="http://www.sara.nl#ONYX.if0"/>
+</ndl:Device>
+
+<!--CWI-->
+<ndl:Device rdf:about="http://www.cwi.nl#cwi-device0">
+	<rdfs:label>CWI</rdfs:label>
+	<!-- rdfs:seeAlso rdf:resource="http://www.cwi.nl/network.rdf"/ -->
+	<ndl:hasInterface rdf:resource="http://www.cwi.nl#cwi-patch1"/>
+	<ndl:hasInterface rdf:resource="http://www.cwi.nl#cwi-patch8"/>
+</ndl:Device>
+
+<!--DataReservoir-->
+<ndl:Device rdf:about="http://data-reservoir.adm.s.u-tokyo.ac.jp#amsterdam">
+	<rdfs:label>DataReservoir</rdfs:label>
+	<!-- rdfs:seeAlso rdf:resource="http://data-reservoir.adm.s.u-tokyo.ac.jp/data-reservoir.rdf"/ -->
+	<ndl:hasInterface rdf:resource="http://data-reservoir.adm.s.u-tokyo.ac.jp#amsterdam:if0"/>
+</ndl:Device>
+
+
+
+<!--Rembrandt0:eth1-->
+<ndl:Interface rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt0:eth1">
+	<rdfs:label>Rembrandt0:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:20"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt0:eth2-->
+<ndl:Interface rdf:about="http://rembrandt0.uva.netherlight.nl#Rembrandt0:eth2">
+	<rdfs:label>Rembrandt0:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt1:eth1-->
+<ndl:Interface rdf:about="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth1">
+	<rdfs:label>Rembrandt1:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:21"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt1:eth2-->
+<ndl:Interface rdf:about="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth2">
+	<rdfs:label>Rembrandt1:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt2:eth1-->
+<ndl:Interface rdf:about="http://rembrandt2.uva.netherlight.nl#Rembrandt2:eth1">
+	<rdfs:label>Rembrandt2:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:22"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt2:eth2-->
+<ndl:Interface rdf:about="http://rembrandt2.uva.netherlight.nl#Rembrandt2:eth2">
+	<rdfs:label>Rembrandt2:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt3:eth1-->
+<ndl:Interface rdf:about="http://rembrandt3.uva.netherlight.nl#Rembrandt3:eth1">
+	<rdfs:label>Rembrandt3:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:23"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt3:eth2-->
+<ndl:Interface rdf:about="http://rembrandt3.uva.netherlight.nl#Rembrandt3:eth2">
+	<rdfs:label>Rembrandt3:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:4"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt4:eth1-->
+<ndl:Interface rdf:about="http://rembrandt4.uva.netherlight.nl#Rembrandt4:eth1">
+	<rdfs:label>Rembrandt4:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:24"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt4:eth2-->
+<ndl:Interface rdf:about="http://rembrandt4.uva.netherlight.nl#Rembrandt4:eth2">
+	<rdfs:label>Rembrandt4:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:5"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt5:eth1-->
+<ndl:Interface rdf:about="http://rembrandt5.uva.netherlight.nl#Rembrandt5:eth1">
+	<rdfs:label>Rembrandt5:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:25"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt5:eth2-->
+<ndl:Interface rdf:about="http://rembrandt5.uva.netherlight.nl#Rembrandt5:eth2">
+	<rdfs:label>Rembrandt5:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:6"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt6:eth1-->
+<ndl:Interface rdf:about="http://rembrandt6.uva.netherlight.nl#Rembrandt6:eth1">
+	<rdfs:label>Rembrandt6:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:26"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt6:eth2-->
+<ndl:Interface rdf:about="http://rembrandt6.uva.netherlight.nl#Rembrandt6:eth2">
+	<rdfs:label>Rembrandt6:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:7"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt7:eth1-->
+<ndl:Interface rdf:about="http://rembrandt7.uva.netherlight.nl#Rembrandt7:eth1">
+	<rdfs:label>Rembrandt7:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:27"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt7:eth2-->
+<ndl:Interface rdf:about="http://rembrandt7.uva.netherlight.nl#Rembrandt7:eth2">
+	<rdfs:label>Rembrandt7:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:8"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt8:eth1-->
+<ndl:Interface rdf:about="http://rembrandt8.uva.netherlight.nl#Rembrandt8:eth1">
+	<rdfs:label>Rembrandt8:eth1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:28"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Rembrandt8:eth2-->
+<ndl:Interface rdf:about="http://rembrandt8.uva.netherlight.nl#Rembrandt8:eth2">
+	<rdfs:label>Rembrandt8:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:9"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--VanGogh0:eth2-->
+<ndl:Interface rdf:about="http://vangogh0.uva.netherlight.nl#VanGogh0:eth2">
+	<rdfs:label>VanGogh0:eth2</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--VanGogh1:eth2-->
+<ndl:Interface rdf:about="http://vangogh1.uva.netherlight.nl#VanGogh1:eth2">
+	<rdfs:label>VanGogh1:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.1"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--VanGogh2:eth2-->
+<ndl:Interface rdf:about="http://vangogh2.uva.netherlight.nl#VanGogh2:eth2">
+	<rdfs:label>VanGogh2:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.2"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--VanGogh3:eth2-->
+<ndl:Interface rdf:about="http://vangogh3.uva.netherlight.nl#VanGogh3:eth2">
+	<rdfs:label>VanGogh3:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--VanGogh4:eth2-->
+<ndl:Interface rdf:about="http://vangogh4.uva.netherlight.nl#VanGogh4:eth2">
+	<rdfs:label>VanGogh4:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.4"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--VanGogh5:eth2-->
+<ndl:Interface rdf:about="http://vangogh5.uva.netherlight.nl#VanGogh5:eth2">
+	<rdfs:label>VanGogh5:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.5"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--VanGogh6:eth2-->
+<ndl:Interface rdf:about="http://vangogh6.uva.netherlight.nl#VanGogh6:eth2">
+	<rdfs:label>VanGogh6:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.6"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--VanGogh7:eth2-->
+<ndl:Interface rdf:about="http://vangogh7.uva.netherlight.nl#VanGogh7:eth2">
+	<rdfs:label>VanGogh7:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.7"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--VanGogh8:eth2-->
+<ndl:Interface rdf:about="http://vangogh8.uva.netherlight.nl#VanGogh8:eth2">
+	<rdfs:label>VanGogh8:eth2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.8"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+
+
+<!--Theo:eth0-->
+<ndl:Interface rdf:about="http://theo.uva.netherlight.nl#Theo:eth0">
+	<rdfs:label>Theo:eth0</rdfs:label>
+</ndl:Interface>
+
+<!--Onno:eth0-->
+<ndl:Interface rdf:about="http://onno.uva.netherlight.nl#Onno:eth0">
+	<rdfs:label>Onno:eth0</rdfs:label>
+</ndl:Interface>
+
+
+
+<!--Force10:3/0-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:3/0">
+	<rdfs:label>Force10:3/0</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:11"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:3/1-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:3/1">
+	<rdfs:label>Force10:3/1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:12"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:4/0-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:4/0">
+	<rdfs:label>Force10:4/0</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://noc.netherlight.net/netherlight.rdf#tdm3.amsterdam1.netherlight.net:501/4"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1198.080E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:4/1-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:4/1">
+	<rdfs:label>Force10:4/1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:15"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1198.080E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/0-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/0">
+	<rdfs:label>Force10:5/0</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:49"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/1-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/1">
+	<rdfs:label>Force10:5/1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:50"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/2-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/2">
+	<rdfs:label>Force10:5/2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:51"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/3-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/3">
+	<rdfs:label>Force10:5/3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:52"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/4-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/4">
+	<rdfs:label>Force10:5/4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:53"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/5-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/5">
+	<rdfs:label>Force10:5/5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:54"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/6-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/6">
+	<rdfs:label>Force10:5/6</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:55"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/7-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/7">
+	<rdfs:label>Force10:5/7</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:56"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/8-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/8">
+	<rdfs:label>Force10:5/8</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:57"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/9-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/9">
+	<rdfs:label>Force10:5/9</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:58"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/10-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/10">
+	<rdfs:label>Force10:5/10</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:59"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/11-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/11">
+	<rdfs:label>Force10:5/11</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:60"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/12-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/12">
+	<rdfs:label>Force10:5/12</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/13-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/13">
+	<rdfs:label>Force10:5/13</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/14-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/14">
+	<rdfs:label>Force10:5/14</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/15-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/15">
+	<rdfs:label>Force10:5/15</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/16-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/16">
+	<rdfs:label>Force10:5/16</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/17-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/17">
+	<rdfs:label>Force10:5/17</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:5/18-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/18">
+	<rdfs:label>Force10:5/18</rdfs:label>
+</ndl:Interface>
+
+<!--Force10:5/19-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/19">
+	<rdfs:label>Force10:5/19</rdfs:label>
+</ndl:Interface>
+
+<!--Force10:5/20-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/20">
+	<rdfs:label>Force10:5/20</rdfs:label>
+</ndl:Interface>
+
+<!--Force10:5/21-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/21">
+	<rdfs:label>Force10:5/21</rdfs:label>
+</ndl:Interface>
+
+<!--Force10:5/22-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/22">
+	<rdfs:label>Force10:5/22</rdfs:label>
+</ndl:Interface>
+
+<!--Force10:5/23-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:5/23">
+	<rdfs:label>Force10:5/23</rdfs:label>
+</ndl:Interface>
+
+<!--Force10:6/0-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:6/0">
+	<rdfs:label>Force10:6/0</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:Te6/3"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Force10:6/1-->
+<ndl:Interface rdf:about="http://force10.uva.netherlight.nl#Force10:6/1">
+	<rdfs:label>Force10:6/1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:14"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+
+
+<!--Houdini:2/1-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:2/1">
+	<rdfs:label>Houdini:2/1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.1"/>
+</ndl:Interface>
+
+<!--Houdini:2/2-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:2/2">
+	<rdfs:label>Houdini:2/2</rdfs:label>
+</ndl:Interface>
+
+<!--Houdini:2/3-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:2/3">
+	<rdfs:label>Houdini:2/3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.3"/>
+</ndl:Interface>
+
+<!--Houdini:3/1-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:3/1">
+	<rdfs:label>Houdini:3/1</rdfs:label>
+</ndl:Interface>
+
+<!--Houdini:3/2-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:3/2">
+	<rdfs:label>Houdini:3/2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:44"/>
+</ndl:Interface>
+
+<!--Houdini:3/3-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:3/3">
+	<rdfs:label>Houdini:3/3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:45"/>
+</ndl:Interface>
+
+<!--Houdini:4/1-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:4/1">
+	<rdfs:label>Houdini:4/1</rdfs:label>
+</ndl:Interface>
+
+<!--Houdini:4/2-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:4/2">
+	<rdfs:label>Houdini:4/2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:46"/>
+</ndl:Interface>
+
+<!--Houdini:4/3-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:4/3">
+	<rdfs:label>Houdini:4/3</rdfs:label>
+</ndl:Interface>
+
+<!--Houdini:7/1-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:7/1">
+	<rdfs:label>Houdini:7/1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.4"/>
+</ndl:Interface>
+
+<!--Houdini:7/2-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:7/2">
+	<rdfs:label>Houdini:7/2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.5"/>
+</ndl:Interface>
+
+<!--Houdini:7/3-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:7/3">
+	<rdfs:label>Houdini:7/3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.6"/>
+</ndl:Interface>
+
+<!--Houdini:8/1-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:8/1">
+	<rdfs:label>Houdini:8/1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:47"/>
+</ndl:Interface>
+
+<!--Houdini:8/2-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:8/2">
+	<rdfs:label>Houdini:8/2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.2"/>
+</ndl:Interface>
+
+<!--Houdini:8/3-->
+<ndl:Interface rdf:about="http://houdini.uva.netherlight.nl#Houdini:8/3">
+	<rdfs:label>Houdini:8/3</rdfs:label>
+</ndl:Interface>
+
+
+
+<!--Speculaas:1-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:1">
+	<rdfs:label>Speculaas:1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0:eth2"/>
+</ndl:Interface>
+
+<!--Speculaas:2-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:2">
+	<rdfs:label>Speculaas:2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth2"/>
+</ndl:Interface>
+
+<!--Speculaas:3-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:3">
+	<rdfs:label>Speculaas:3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2:eth2"/>
+</ndl:Interface>
+
+<!--Speculaas:4-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:4">
+	<rdfs:label>Speculaas:4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3:eth2"/>
+</ndl:Interface>
+
+<!--Speculaas:5-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:5">
+	<rdfs:label>Speculaas:5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4:eth2"/>
+</ndl:Interface>
+
+<!--Speculaas:6-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:6">
+	<rdfs:label>Speculaas:6</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5:eth2"/>
+</ndl:Interface>
+
+<!--Speculaas:7-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:7">
+	<rdfs:label>Speculaas:7</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:eth2"/>
+</ndl:Interface>
+
+<!--Speculaas:8-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:8">
+	<rdfs:label>Speculaas:8</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7:eth2"/>
+</ndl:Interface>
+
+<!--Speculaas:9-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:9">
+	<rdfs:label>Speculaas:9</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt8.uva.netherlight.nl#Rembrandt8:eth2"/>
+</ndl:Interface>
+
+<!--Speculaas:10-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:10">
+	<rdfs:label>Speculaas:10</rdfs:label>
+</ndl:Interface>
+
+<!--Speculaas:11-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:11">
+	<rdfs:label>Speculaas:11</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:3/0"/>
+</ndl:Interface>
+
+<!--Speculaas:12-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:12">
+	<rdfs:label>Speculaas:12</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:3/1"/>
+</ndl:Interface>
+
+<!--Speculaas:13-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:13">
+	<rdfs:label>Speculaas:13</rdfs:label>
+</ndl:Interface>
+
+<!--Speculaas:14-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:14">
+	<rdfs:label>Speculaas:14</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:6/1"/>
+</ndl:Interface>
+
+<!--Speculaas:15-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:15">
+	<rdfs:label>Speculaas:15</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:4/1"/>
+</ndl:Interface>
+
+<!--Speculaas:16-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:16">
+	<rdfs:label>Speculaas:16</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://www.sara.nl#ONYX:if0"/>
+</ndl:Interface>
+
+<!--Speculaas:17-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:17">
+	<rdfs:label>Speculaas:17</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://data-reservoir.adm.s.u-tokyo.ac.jp#amsterdam:if0"/>
+</ndl:Interface>
+
+<!--Speculaas:18-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:18">
+	<rdfs:label>Speculaas:18</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://www.cwi.nl#cwi-device0:patch8"/>
+</ndl:Interface>
+
+<!--Speculaas:19-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:19">
+	<rdfs:label>Speculaas:19</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://noc.netherlight.net/netherlight.rdf#tdm3.amsterdam1.netherlight.net:504/3"/>
+</ndl:Interface>
+
+<!--Speculaas:20-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:20">
+	<rdfs:label>Speculaas:20</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt0.uva.netherlight.nl#Rembrandt0:eth1"/>
+</ndl:Interface>
+
+<!--Speculaas:21-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:21">
+	<rdfs:label>Speculaas:21</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt1.uva.netherlight.nl#Rembrandt1:eth1"/>
+</ndl:Interface>
+
+<!--Speculaas:22-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:22">
+	<rdfs:label>Speculaas:22</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt2.uva.netherlight.nl#Rembrandt2:eth1"/>
+</ndl:Interface>
+
+<!--Speculaas:23-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:23">
+	<rdfs:label>Speculaas:23</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt3.uva.netherlight.nl#Rembrandt3:eth1"/>
+</ndl:Interface>
+
+<!--Speculaas:24-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:24">
+	<rdfs:label>Speculaas:24</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt4.uva.netherlight.nl#Rembrandt4:eth1"/>
+</ndl:Interface>
+
+<!--Speculaas:25-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:25">
+	<rdfs:label>Speculaas:25</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt5.uva.netherlight.nl#Rembrandt5:eth1"/>
+</ndl:Interface>
+
+<!--Speculaas:26-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:26">
+	<rdfs:label>Speculaas:26</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt6.uva.netherlight.nl#Rembrandt6:eth1"/>
+</ndl:Interface>
+
+<!--Speculaas:27-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:27">
+	<rdfs:label>Speculaas:27</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt7.uva.netherlight.nl#Rembrandt7:eth1"/>
+</ndl:Interface>
+
+<!--Speculaas:28-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:28">
+	<rdfs:label>Speculaas:28</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://rembrandt8.uva.netherlight.nl#Rembrandt8:eth1"/>
+</ndl:Interface>
+
+<!--Speculaas:29-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:29">
+	<rdfs:label>Speculaas:29</rdfs:label>
+</ndl:Interface>
+
+<!--Speculaas:30-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:30">
+	<rdfs:label>Speculaas:30</rdfs:label>
+</ndl:Interface>
+
+<!--Speculaas:31-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:31">
+	<rdfs:label>Speculaas:31</rdfs:label>
+	<!-- ndl:connectedTo rdf:resource="#M381/Patch0"/ -->
+</ndl:Interface>
+
+<!--Speculaas:32-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:32">
+	<rdfs:label>Speculaas:32</rdfs:label>
+	<!-- ndl:connectedTo rdf:resource="#M381/Patch0"/ -->
+</ndl:Interface>
+
+<!--Speculaas:33-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:33">
+	<rdfs:label>Speculaas:33</rdfs:label>
+</ndl:Interface>
+
+<!--Speculaas:34-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:34">
+	<rdfs:label>Speculaas:34</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.1"/>
+</ndl:Interface>
+
+<!--Speculaas:35-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:35">
+	<rdfs:label>Speculaas:35</rdfs:label>
+</ndl:Interface>
+
+<!--Speculaas:36-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:36">
+	<rdfs:label>Speculaas:36</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.2"/>
+</ndl:Interface>
+
+<!--Speculaas:37-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:37">
+	<rdfs:label>Speculaas:37</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.3"/>
+</ndl:Interface>
+
+<!--Speculaas:38-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:38">
+	<rdfs:label>Speculaas:38</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.4"/>
+</ndl:Interface>
+
+<!--Speculaas:39-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:39">
+	<rdfs:label>Speculaas:39</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.5"/>
+</ndl:Interface>
+
+<!--Speculaas:40-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:40">
+	<rdfs:label>Speculaas:40</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.6"/>
+</ndl:Interface>
+
+<!--Speculaas:41-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:41">
+	<rdfs:label>Speculaas:41</rdfs:label>
+</ndl:Interface>
+
+<!--Speculaas:42-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:42">
+	<rdfs:label>Speculaas:42</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.7"/>
+</ndl:Interface>
+
+<!--Speculaas:43-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:43">
+	<rdfs:label>Speculaas:43</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.8"/>
+</ndl:Interface>
+
+<!--Speculaas:44-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:44">
+	<rdfs:label>Speculaas:44</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://houdini.uva.netherlight.nl#Houdini:3/2"/>
+</ndl:Interface>
+
+<!--Speculaas:45-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:45">
+	<rdfs:label>Speculaas:45</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://houdini.uva.netherlight.nl#Houdini:3/3"/>
+</ndl:Interface>
+
+<!--Speculaas:46-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:46">
+	<rdfs:label>Speculaas:46</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://houdini.uva.netherlight.nl#Houdini:4/2"/>
+</ndl:Interface>
+
+<!--Speculaas:47-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:47">
+	<rdfs:label>Speculaas:47</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://houdini.uva.netherlight.nl#Houdini:8/1"/>
+</ndl:Interface>
+
+<!--Speculaas:48-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:48">
+	<rdfs:label>Speculaas:48</rdfs:label>
+</ndl:Interface>
+
+<!--Speculaas:49-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:49">
+	<rdfs:label>Speculaas:49</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/0"/>
+</ndl:Interface>
+
+<!--Speculaas:50-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:50">
+	<rdfs:label>Speculaas:50</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/1"/>
+</ndl:Interface>
+
+<!--Speculaas:51-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:51">
+	<rdfs:label>Speculaas:51</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/2"/>
+</ndl:Interface>
+
+<!--Speculaas:52-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:52">
+	<rdfs:label>Speculaas:52</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/3"/>
+</ndl:Interface>
+
+<!--Speculaas:53-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:53">
+	<rdfs:label>Speculaas:53</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/4"/>
+</ndl:Interface>
+
+<!--Speculaas:54-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:54">
+	<rdfs:label>Speculaas:54</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/5"/>
+</ndl:Interface>
+
+<!--Speculaas:55-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:55">
+	<rdfs:label>Speculaas:55</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/6"/>
+</ndl:Interface>
+
+<!--Speculaas:56-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:56">
+	<rdfs:label>Speculaas:56</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/7"/>
+</ndl:Interface>
+
+<!--Speculaas:57-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:57">
+	<rdfs:label>Speculaas:57</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/8"/>
+</ndl:Interface>
+
+<!--Speculaas:58-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:58">
+	<rdfs:label>Speculaas:58</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/9"/>
+</ndl:Interface>
+
+<!--Speculaas:59-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:59">
+	<rdfs:label>Speculaas:59</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/10"/>
+</ndl:Interface>
+
+<!--Speculaas:60-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:60">
+	<rdfs:label>Speculaas:60</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://force10.uva.netherlight.nl#Force10:5/11"/>
+</ndl:Interface>
+
+<!--Speculaas:61-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:61">
+	<rdfs:label>Speculaas:61</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://npu.uva.netherlight.nl#IDXP2810:1"/>
+</ndl:Interface>
+
+<!--Speculaas:62-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:62">
+	<rdfs:label>Speculaas:62</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://npu.uva.netherlight.nl#IDXP2810:2"/>
+</ndl:Interface>
+
+<!--Speculaas:63-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:63">
+	<rdfs:label>Speculaas:63</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://npu.uva.netherlight.nl#IDXP2810:3"/>
+</ndl:Interface>
+
+<!--Speculaas:64-->
+<ndl:Interface rdf:about="http://speculaas.uva.netherlight.nl#Speculaas:64">
+	<rdfs:label>Speculaas:64</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://npu.uva.netherlight.nl#IDXP2810:4"/>
+</ndl:Interface>
+
+
+
+<!--BeautyCees:10.1a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.1">
+	<rdfs:label>BeautyCees:10.1a.1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://vangogh1.uva.netherlight.nl#VanGogh1:eth2"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.1a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.2">
+	<rdfs:label>BeautyCees:10.1a.2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://vangogh2.uva.netherlight.nl#VanGogh2:eth2"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.1a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.3">
+	<rdfs:label>BeautyCees:10.1a.3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://vangogh3.uva.netherlight.nl#VanGogh3:eth2"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.1a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.4">
+	<rdfs:label>BeautyCees:10.1a.4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://vangogh4.uva.netherlight.nl#VanGogh4:eth2"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.1a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.5">
+	<rdfs:label>BeautyCees:10.1a.5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://vangogh5.uva.netherlight.nl#VanGogh5:eth2"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.1a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.6">
+	<rdfs:label>BeautyCees:10.1a.6</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://vangogh6.uva.netherlight.nl#VanGogh6:eth2"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.1a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.7">
+	<rdfs:label>BeautyCees:10.1a.7</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://vangogh7.uva.netherlight.nl#VanGogh7:eth2"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.1a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.1a.8">
+	<rdfs:label>BeautyCees:10.1a.8</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://vangogh8.uva.netherlight.nl#VanGogh8:eth2"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.2a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.1">
+	<rdfs:label>BeautyCees:10.2a.1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://houdini.uva.netherlight.nl#Houdini:2/1"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.2a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.2">
+	<rdfs:label>BeautyCees:10.2a.2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://houdini.uva.netherlight.nl#Houdini:8/2"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.2a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.3">
+	<rdfs:label>BeautyCees:10.2a.3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://houdini.uva.netherlight.nl#Houdini:2/3"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.2a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.4">
+	<rdfs:label>BeautyCees:10.2a.4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://houdini.uva.netherlight.nl#Houdini:7/1"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.2a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.5">
+	<rdfs:label>BeautyCees:10.2a.5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://houdini.uva.netherlight.nl#Houdini:7/2"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.2a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.6">
+	<rdfs:label>BeautyCees:10.2a.6</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://houdini.uva.netherlight.nl#Houdini:7/3"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.2a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.7">
+	<rdfs:label>BeautyCees:10.2a.7</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/3"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.2a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.8">
+	<rdfs:label>BeautyCees:10.2a.8</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/4"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.3a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.1">
+	<rdfs:label>BeautyCees:10.3a.1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:34"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.3a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.2">
+	<rdfs:label>BeautyCees:10.3a.2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:36"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.3a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.3">
+	<rdfs:label>BeautyCees:10.3a.3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:37"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.3a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.4">
+	<rdfs:label>BeautyCees:10.3a.4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:38"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.3a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.5">
+	<rdfs:label>BeautyCees:10.3a.5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:39"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.3a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.6">
+	<rdfs:label>BeautyCees:10.3a.6</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:40"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.3a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.7">
+	<rdfs:label>BeautyCees:10.3a.7</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:42"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.3a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.3a.8">
+	<rdfs:label>BeautyCees:10.3a.8</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:43"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.4a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.1">
+	<rdfs:label>BeautyCees:10.4a.1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://www.nikhef.nl#Netgear:45"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.4a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.2">
+	<rdfs:label>BeautyCees:10.4a.2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:1/11"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.4a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.3">
+	<rdfs:label>BeautyCees:10.4a.3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:1/10"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.4a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.4">
+	<rdfs:label>BeautyCees:10.4a.4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:1/9"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.4a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.5">
+	<rdfs:label>BeautyCees:10.4a.5</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/2/1"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.4a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.6">
+	<rdfs:label>BeautyCees:10.4a.6</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/2/2"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.4a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.7">
+	<rdfs:label>BeautyCees:10.4a.7</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/2/3"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.4a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.8">
+	<rdfs:label>BeautyCees:10.4a.8</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://lala.uva.netherlight.nl#Lala:24"/>
+</ndl:Interface>
+
+<!--BeautyCees:10.5a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.1">
+	<rdfs:label>BeautyCees:10.5a.1</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.5a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.2">
+	<rdfs:label>BeautyCees:10.5a.2</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.5a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.3">
+	<rdfs:label>BeautyCees:10.5a.3</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.5a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.4">
+	<rdfs:label>BeautyCees:10.5a.4</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.5a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.5">
+	<rdfs:label>BeautyCees:10.5a.5</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.5a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.6">
+	<rdfs:label>BeautyCees:10.5a.6</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.5a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.7">
+	<rdfs:label>BeautyCees:10.5a.7</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.5a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.5a.8">
+	<rdfs:label>BeautyCees:10.5a.8</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.6a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.1">
+	<rdfs:label>BeautyCees:10.6a.1</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.6a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.2">
+	<rdfs:label>BeautyCees:10.6a.2</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.6a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.3">
+	<rdfs:label>BeautyCees:10.6a.3</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.6a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.4">
+	<rdfs:label>BeautyCees:10.6a.4</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.6a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.5">
+	<rdfs:label>BeautyCees:10.6a.5</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.6a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.6">
+	<rdfs:label>BeautyCees:10.6a.6</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.6a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.7">
+	<rdfs:label>BeautyCees:10.6a.7</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.6a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.6a.8">
+	<rdfs:label>BeautyCees:10.6a.8</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.7a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.1">
+	<rdfs:label>BeautyCees:10.7a.1</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.7a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.2">
+	<rdfs:label>BeautyCees:10.7a.2</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.7a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.3">
+	<rdfs:label>BeautyCees:10.7a.3</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.7a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.4">
+	<rdfs:label>BeautyCees:10.7a.4</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.7a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.5">
+	<rdfs:label>BeautyCees:10.7a.5</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.7a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.6">
+	<rdfs:label>BeautyCees:10.7a.6</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.7a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.7">
+	<rdfs:label>BeautyCees:10.7a.7</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.7a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.7a.8">
+	<rdfs:label>BeautyCees:10.7a.8</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.8a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.1">
+	<rdfs:label>BeautyCees:10.8a.1</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.8a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.2">
+	<rdfs:label>BeautyCees:10.8a.2</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.8a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.3">
+	<rdfs:label>BeautyCees:10.8a.3</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.8a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.4">
+	<rdfs:label>BeautyCees:10.8a.4</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.8a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.5">
+	<rdfs:label>BeautyCees:10.8a.5</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.8a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.6">
+	<rdfs:label>BeautyCees:10.8a.6</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.8a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.7">
+	<rdfs:label>BeautyCees:10.8a.7</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.8a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.8a.8">
+	<rdfs:label>BeautyCees:10.8a.8</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.9a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.1">
+	<rdfs:label>BeautyCees:10.9a.1</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.9a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.2">
+	<rdfs:label>BeautyCees:10.9a.2</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.9a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.3">
+	<rdfs:label>BeautyCees:10.9a.3</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.9a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.4">
+	<rdfs:label>BeautyCees:10.9a.4</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.9a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.5">
+	<rdfs:label>BeautyCees:10.9a.5</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.9a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.6">
+	<rdfs:label>BeautyCees:10.9a.6</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.9a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.7">
+	<rdfs:label>BeautyCees:10.9a.7</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.9a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.9a.8">
+	<rdfs:label>BeautyCees:10.9a.8</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.10a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.1">
+	<rdfs:label>BeautyCees:10.10a.1</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.10a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.2">
+	<rdfs:label>BeautyCees:10.10a.2</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.10a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.3">
+	<rdfs:label>BeautyCees:10.10a.3</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.10a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.4">
+	<rdfs:label>BeautyCees:10.10a.4</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.10a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.5">
+	<rdfs:label>BeautyCees:10.10a.5</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.10a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.6">
+	<rdfs:label>BeautyCees:10.10a.6</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.10a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.7">
+	<rdfs:label>BeautyCees:10.10a.7</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.10a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.10a.8">
+	<rdfs:label>BeautyCees:10.10a.8</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.11a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.1">
+	<rdfs:label>BeautyCees:10.11a.1</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.11a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.2">
+	<rdfs:label>BeautyCees:10.11a.2</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.11a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.3">
+	<rdfs:label>BeautyCees:10.11a.3</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.11a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.4">
+	<rdfs:label>BeautyCees:10.11a.4</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.11a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.5">
+	<rdfs:label>BeautyCees:10.11a.5</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.11a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.6">
+	<rdfs:label>BeautyCees:10.11a.6</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.11a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.7">
+	<rdfs:label>BeautyCees:10.11a.7</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.11a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.11a.8">
+	<rdfs:label>BeautyCees:10.11a.8</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.12a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.1">
+	<rdfs:label>BeautyCees:10.12a.1</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.12a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.2">
+	<rdfs:label>BeautyCees:10.12a.2</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.12a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.3">
+	<rdfs:label>BeautyCees:10.12a.3</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.12a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.4">
+	<rdfs:label>BeautyCees:10.12a.4</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.12a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.5">
+	<rdfs:label>BeautyCees:10.12a.5</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.12a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.6">
+	<rdfs:label>BeautyCees:10.12a.6</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.12a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.7">
+	<rdfs:label>BeautyCees:10.12a.7</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.12a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.12a.8">
+	<rdfs:label>BeautyCees:10.12a.8</rdfs:label>
+</ndl:Interface>
+
+<!--BeautyCees:10.13a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.1">
+	<rdfs:label>BeautyCees:10.13a.1</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.13a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.2">
+	<rdfs:label>BeautyCees:10.13a.2</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.13a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.3">
+	<rdfs:label>BeautyCees:10.13a.3</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.13a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.4">
+	<rdfs:label>BeautyCees:10.13a.4</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.13a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.5">
+	<rdfs:label>BeautyCees:10.13a.5</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.13a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.6">
+	<rdfs:label>BeautyCees:10.13a.6</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.13a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.7">
+	<rdfs:label>BeautyCees:10.13a.7</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.13a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.13a.8">
+	<rdfs:label>BeautyCees:10.13a.8</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.14a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.1">
+	<rdfs:label>BeautyCees:10.14a.1</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.14a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.2">
+	<rdfs:label>BeautyCees:10.14a.2</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.14a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.3">
+	<rdfs:label>BeautyCees:10.14a.3</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.14a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.4">
+	<rdfs:label>BeautyCees:10.14a.4</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.14a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.5">
+	<rdfs:label>BeautyCees:10.14a.5</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.14a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.6">
+	<rdfs:label>BeautyCees:10.14a.6</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.14a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.7">
+	<rdfs:label>BeautyCees:10.14a.7</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.14a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.14a.8">
+	<rdfs:label>BeautyCees:10.14a.8</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.15a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.1">
+	<rdfs:label>BeautyCees:10.15a.1</rdfs:label>
+	<!-- Reserved for DAS-3 UvA downlink -->
+</ndl:Interface>
+
+<!--BeautyCees:10.15a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.2">
+	<rdfs:label>BeautyCees:10.15a.2</rdfs:label>
+	<!-- Reserved for DAS-3 UvA-MN downlink -->
+</ndl:Interface>
+
+<!--BeautyCees:10.15a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.3">
+	<rdfs:label>BeautyCees:10.15a.3</rdfs:label>
+	<!-- Reserved for DAS-3 UvA uplink -->
+</ndl:Interface>
+
+<!--BeautyCees:10.15a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.4">
+	<rdfs:label>BeautyCees:10.15a.4</rdfs:label>
+	<!-- Reserved for DAS-3 UvA-MN uplink -->
+</ndl:Interface>
+
+<!--BeautyCees:10.15a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.5">
+	<rdfs:label>BeautyCees:10.15a.5</rdfs:label>
+	<!-- Reserved for permanent NetherLight connections -->
+</ndl:Interface>
+
+<!--BeautyCees:10.15a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.6">
+	<rdfs:label>BeautyCees:10.15a.6</rdfs:label>
+	<!-- Reserved for permanent NetherLight connections -->
+</ndl:Interface>
+
+<!--BeautyCees:10.15a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.7">
+	<rdfs:label>BeautyCees:10.15a.7</rdfs:label>
+	<!-- Reserved for permanent NetherLight connections -->
+</ndl:Interface>
+
+<!--BeautyCees:10.15a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.15a.8">
+	<rdfs:label>BeautyCees:10.15a.8</rdfs:label>
+	<!-- Starplane 10 GE to Hilversum -->
+</ndl:Interface>
+
+<!--BeautyCees:10.16a.1-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.1">
+	<rdfs:label>BeautyCees:10.16a.1</rdfs:label>
+	<!-- Starplane 10 GE #1 -->
+</ndl:Interface>
+
+<!--BeautyCees:10.16a.2-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.2">
+	<rdfs:label>BeautyCees:10.16a.2</rdfs:label>
+	<!-- Starplane 10 GE #2 -->
+</ndl:Interface>
+
+<!--BeautyCees:10.16a.3-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.3">
+	<rdfs:label>BeautyCees:10.16a.3</rdfs:label>
+	<!-- Starplane 10 GE #3 -->
+</ndl:Interface>
+
+<!--BeautyCees:10.16a.4-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.4">
+	<rdfs:label>BeautyCees:10.16a.4</rdfs:label>
+	<!-- Starplane 10 GE #4 -->
+</ndl:Interface>
+
+<!--BeautyCees:10.16a.5-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.5">
+	<rdfs:label>BeautyCees:10.16a.5</rdfs:label>
+	<!-- Starplane 10 GE #5 -->
+</ndl:Interface>
+
+<!--BeautyCees:10.16a.6-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.6">
+	<rdfs:label>BeautyCees:10.16a.6</rdfs:label>
+	<!-- Starplane 10 GE #6 -->
+</ndl:Interface>
+
+<!--BeautyCees:10.16a.7-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.7">
+	<rdfs:label>BeautyCees:10.16a.7</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+<!--BeautyCees:10.16a.8-->
+<ndl:Interface rdf:about="http://beautycees.uva.netherlight.nl#BeautyCees:10.16a.8">
+	<rdfs:label>BeautyCees:10.16a.8</rdfs:label>
+	<!-- Reserved for StarPlane -->
+</ndl:Interface>
+
+
+
+<!--IDXP2810:1-->
+<ndl:Interface rdf:about="http://npu.uva.netherlight.nl#IDXP2810:1">
+	<rdfs:label>IDXP2810:1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:61"/>
+</ndl:Interface>
+
+<!--IDXP2810:2-->
+<ndl:Interface rdf:about="http://npu.uva.netherlight.nl#IDXP2810:2">
+	<rdfs:label>IDXP2810:2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:62"/>
+</ndl:Interface>
+
+<!--IDXP2810:3-->
+<ndl:Interface rdf:about="http://npu.uva.netherlight.nl#IDXP2810:3">
+	<rdfs:label>IDXP2810:3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:63"/>
+</ndl:Interface>
+
+<!--IDXP2810:4-->
+<ndl:Interface rdf:about="http://npu.uva.netherlight.nl#IDXP2810:4">
+	<rdfs:label>IDXP2810:4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://speculaas.uva.netherlight.nl#Speculaas:64"/>
+</ndl:Interface>
+
+
+
+<!--Raptor:1/1/1-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/1">
+	<rdfs:label>Raptor:1/1/1</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/1/2-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/2">
+	<rdfs:label>Raptor:1/1/2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://noc.netherlight.net/netherlight.rdf#tdm3.amsterdam1.netherlight.net:508/1/5"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/1/3-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/3">
+	<rdfs:label>Raptor:1/1/3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.7"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/1/4-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/4">
+	<rdfs:label>Raptor:1/1/4</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.2a.8"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/1/5-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/5">
+	<rdfs:label>Raptor:1/1/5</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/1/6-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/6">
+	<rdfs:label>Raptor:1/1/6</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/1/7-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/7">
+	<rdfs:label>Raptor:1/1/7</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/1/8-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/8">
+	<rdfs:label>Raptor:1/1/8</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/1/9-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/9">
+	<rdfs:label>Raptor:1/1/9</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/1/10-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/10">
+	<rdfs:label>Raptor:1/1/10</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/1/11-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/11">
+	<rdfs:label>Raptor:1/1/11</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/1/12-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/1/12">
+	<rdfs:label>Raptor:1/1/12</rdfs:label>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">125E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/2/1-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/2/1">
+	<rdfs:label>Raptor:1/2/1</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.5"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/2/2-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/2/2">
+	<rdfs:label>Raptor:1/2/2</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.6"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+<!--Raptor:1/2/3-->
+<ndl:Interface rdf:about="http://amsterdam-vlsr.dragon.maxgigapop.net#Raptor:1/2/3">
+	<rdfs:label>Raptor:1/2/3</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.7"/>
+	<ndl:capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1250E6</ndl:capacity>
+</ndl:Interface>
+
+
+
+<!--Netgear:45-->
+<ndl:Interface rdf:about="http://www.nikhef.nl#Netgear:45">
+	<rdfs:label>Netgear:45</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.1"/>
+</ndl:Interface>
+
+<!--Netgear:47-->
+<ndl:Interface rdf:about="http://www.nikhef.nl#Netgear:47">
+	<rdfs:label>Netgear:47</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://www.cwi.nl#cwi-device0:patch1"/>
+</ndl:Interface>
+
+
+
+<!--Lala:24-->
+<ndl:Interface rdf:about="http://lala.uva.netherlight.nl#Lala:24">
+	<rdfs:label>Lala:24</rdfs:label>
+	<ndl:connectedTo rdf:resource="http://beautycees.uva.netherlight.nl#BeautyCees:10.4a.8"/>
+</ndl:Interface>
+
+
+
+<!--SW1-6509-->
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:1/9">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:1/10">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:1/11">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:2/9">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:2/13">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/7">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/8">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/12">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/13">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/14">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/15">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:3/16">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/surfnet.rdf#sw1.amsterdam1.netherlight.net:Te6/3">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/surfnet.rdf"/>
+</ndl:Interface>
+
+
+
+<!--TDM1-15454-->
+<ndl:Interface rdf:about="http://noc.netherlight.net/netherlight.rdf#tdm1.amsterdam1.netherlight.net:1.1">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/netherlight.rdf#tdm1.amsterdam1.netherlight.net:1.2">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/netherlight.rdf#tdm1.amsterdam1.netherlight.net:2.1">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/netherlight.rdf#tdm1.amsterdam1.netherlight.net:2.2">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/netherlight.rdf#tdm1.amsterdam1.netherlight.net:15.4">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+</ndl:Interface>
+
+
+
+<!--TDM3-HDXc-->
+<ndl:Interface rdf:about="http://noc.netherlight.net/netherlight.rdf#tdm3.amsterdam1.netherlight.net:501/4">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/netherlight.rdf#tdm3.amsterdam1.netherlight.net:504/3">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://noc.netherlight.net/netherlight.rdf#tdm3.amsterdam1.netherlight.net:508/1/5">
+	<rdfs:seeAlso rdf:resource="http://noc.netherlight.net/netherlight.rdf"/>
+</ndl:Interface>
+
+
+
+<!--ONYX-->
+<ndl:Interface rdf:about="http://www.sara.nl#ONYX:if0">
+	<!-- rdfs:seeAlso rdf:resource="http://www.sara.nl/sara.rdf"/ -->
+</ndl:Interface>
+
+
+
+<!--CWI-->
+<ndl:Interface rdf:about="http://www.cwi.nl#cwi-device0:patch1">
+	<!-- rdfs:seeAlso rdf:resource="http://www.cwi.nl/network.rdf"/ -->
+</ndl:Interface>
+
+<ndl:Interface rdf:about="http://www.cwi.nl#cwi-device0:patch8">
+	<!-- rdfs:seeAlso rdf:resource="http://www.cwi.nl/network.rdf"/ -->
+</ndl:Interface>
+
+
+
+<!--DataReservoir-->
+<ndl:Interface rdf:about="http://data-reservoir.adm.s.u-tokyo.ac.jp#amsterdam:if0">
+	<!-- rdfs:seeAlso rdf:resource="http://data-reservoir.adm.s.u-tokyo.ac.jp/data-reservoir.rdf"/ -->
+</ndl:Interface>
+
+
+</rdf:RDF>
